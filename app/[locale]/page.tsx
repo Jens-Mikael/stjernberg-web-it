@@ -9,7 +9,7 @@ import Testimonials from "@/components/shared-layouts/Testimonials";
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <Hero page="home" />
       <div className="bg-base-light">
         <Services />
         <Testimonials />

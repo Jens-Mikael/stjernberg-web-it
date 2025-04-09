@@ -3,12 +3,11 @@ import ButtonFilled from "../buttons/ButtonFilled";
 import ButtonOutline from "../buttons/ButtonOutline";
 import QuoteIcon from "../svg/QuoteIcon";
 import { getTranslations } from "next-intl/server";
-
-export default async function Hero() {
-  const t = await getTranslations("HomePage.hero");
+export default async function Hero({ page }: { page: string }) {
+  const t = await getTranslations(`${page}.hero`);
 
   return (
-    <div className="flex px-5 sm:px-10 lg:px-20 xl:px-30 relative flex-col items-center overflow-hidden text-content-light pt-40 pb-10">
+    <div className="flex px-5 sm:px-10 lg:px-20 xl:px-30 relative flex-col items-center overflow-hidden text-content-light pt-40 pb-5 sm:pb-10">
       <div className="max-w-[1800px] w-full space-y-20 lg:space-y-30 relative">
         <div className="flex flex-col gap-10 w-full">
           {/* QUOTE */}
@@ -34,7 +33,7 @@ export default async function Hero() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 lg:text-start text-center w-full  gap-5 lg:gap-10 relative">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 lg:text-start text-center w-full gap-3 sm:gap-5 lg:gap-10 relative">
           <p className="text-gray-300 lg:text-xl">Meihin luottaa:</p>
           {[
             "one-point-code",

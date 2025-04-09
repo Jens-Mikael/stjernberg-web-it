@@ -9,14 +9,14 @@ import ButtonFilled from "./buttons/ButtonFilled";
 
 const schema = z.object({
   name: z.string().min(1, "Name is required"),
-  email: z.string().min(1, "Email is required").email({ message: "Email is invalid" }),
+  email: z
+    .string()
+    .min(1, "Email is required")
+    .email({ message: "Email is invalid" }),
   phone: z
     .string()
     .min(1, "Phone is required")
-    .regex(
-      /^\+\d{5,15}$/,
-      "Phone must start with + and contain 5-15 numbers"
-    ),
+    .regex(/^\+\d{5,15}$/, "Phone must start with + and contain 5-15 numbers"),
   message: z.string().min(1, "Message is required"),
 });
 
@@ -41,7 +41,7 @@ export default function ContactForm() {
     <div className="flex justify-center py-20 px-2 sm:px-10 lg:px-20 xl:px-30 ">
       <div className="max-w-2xl bg-base-dark text-content-light w-full flex flex-col gap-5 rounded-[20px] p-5 sm:p-10">
         <div className="flex flex-col gap-2">
-          <h2 className="text-4xl font-bold mb-3">
+          <h2 className="text-2xl lg:text-4xl font-bold mb-3">
             Pyydä tarjous projektiisi!
           </h2>
           <p className=" text-content-gray">
@@ -60,23 +60,23 @@ export default function ContactForm() {
               placeholder="Matti Meikäläinen"
               {...register("name")}
               error={errors.name?.message}
-          />
-          <InputText
-            label="Sähköpostiosoite"
-            id="email"
-            placeholder="matti@meikalainen.fi"
-            {...register("email")}
-            error={errors.email?.message}
-          />
-          <InputText
-            label="Puhelinnumero"
-            id="phone"
-            placeholder="+358401234567"
-            {...register("phone")}
-            error={errors.phone?.message}
-          />
-          <Textarea
-            label="Kerro tavoitteistasi"
+            />
+            <InputText
+              label="Sähköpostiosoite"
+              id="email"
+              placeholder="matti@meikalainen.fi"
+              {...register("email")}
+              error={errors.email?.message}
+            />
+            <InputText
+              label="Puhelinnumero"
+              id="phone"
+              placeholder="+358401234567"
+              {...register("phone")}
+              error={errors.phone?.message}
+            />
+            <Textarea
+              label="Kerro tavoitteistasi"
               id="message"
               placeholder="Haluan parantaa kotisivujani..."
               {...register("message")}

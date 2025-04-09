@@ -26,6 +26,10 @@ h1 {
   @apply text-3xl xl:text-6xl font-bold;
 }
 
+h2 {
+  @apply text-3xl xl:text-4xl font-bold;
+}
+
 h4 {
   @apply text-xl xl:text-3xl font-medium;
 }

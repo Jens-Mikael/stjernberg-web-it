@@ -41,7 +41,7 @@ const services = [
 
 export default function Footer() {
   return (
-    <div className="w-full bg-base-dark text-content-gray gap-5 px-10 pb-5 pt-10 flex flex-col items-center">
+    <div className="w-full bg-base-dark text-content-gray gap-5 px-5 sm:px-10 pb-5 pt-10 flex flex-col items-center">
       <div className="flex flex-col sm:flex-row gap-5 max-w-[1800px] w-full">
         <div className="flex-1 flex flex-col gap-5">
           <h2 className="text-2xl font-bold text-content-light">

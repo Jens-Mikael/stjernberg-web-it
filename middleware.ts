@@ -1,7 +1,16 @@
 import createMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
+import { NextRequest } from 'next/server';
 
-export default createMiddleware(routing);
+export default function middleware(request: NextRequest) {
+  const response = createMiddleware(routing)(request);
+  
+  // Add the pathname to the response headers
+  const pathname = request.nextUrl.pathname;
+  response.headers.set('x-pathname', pathname);
+  
+  return response;
+}
 
 export const config = {
   // Match all pathnames except for
