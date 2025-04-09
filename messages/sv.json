@@ -1,8 +1,16 @@
 {
-  "HomePage": {
+  "home": {
     "hero": {
       "headline": "Innovativa programvaror och IT-lösningar",
       "subheadline": "Vi strävar efter att utveckla effektiva IT-lösningar som säkerställer företagens konkurrenskraft i en föränderlig värld."
+    }
+  },
+  "services": {
+    "web-pages": {
+      "hero": {
+        "headline": "Moderna webbsidor för företag",
+        "subheadline": "Vi skapar professionella, kontaktorientrade och sökmotoroptimerade webbsidor som producerar kunder för företag."
+      }
     }
   }
 }

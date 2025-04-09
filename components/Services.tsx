@@ -3,13 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-type Service = {
-  title: string;
-  description: string;
-  icon: React.ElementType;
-  image: string;
-};
-
 export default function Services() {
   return (
     <div className="px-5 sm:px-10 lg:px-20 xl:px-30 py-20 flex justify-center bg-base-light">
@@ -22,25 +15,25 @@ export default function Services() {
               description:
                 "Rakennamme yrityksellesi taloudelliseen hintaan käyttäjäystävälliset ja visuaalisesti näyttävät kotisivut, joiden avulla erotut kilpailijoistasi ja kasvatat liiketoimintaa.",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Kotisivut yritykselle",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Kotisivut yritykselle",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Kotisivut yritykselle",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
           ].map((service, i) => (
             <Link

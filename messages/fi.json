@@ -1,8 +1,16 @@
 {
-  "HomePage": {
+  "home": {
     "hero": {
       "headline": "Innovatiiviset ohjelmisto- ja IT-ratkaisut",
       "subheadline": "Kehittämme tehokkaita IT-ratkaisuja, jotka varmistaa yritysten kilpailukykyä muuttuvassa maailmassa."
+    }
+  },
+  "services": {
+    "web-pages": {
+      "hero": {
+        "headline": "Modernit nettisivut yrityksille",
+        "subheadline": "Rakennamme ammattimaiset, räätälöidyt ja hakukoneoptimoidut verkkosivut yritykselle, jotka tuottavat asiakkaita."
+      }
     }
   }
 }

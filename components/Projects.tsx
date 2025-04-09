@@ -17,25 +17,25 @@ export default function Projects() {
               description:
                 "Rakennamme yrityksellesi taloudelliseen hintaan käyttäjäystävälliset ja visuaalisesti näyttävät kotisivut, joiden avulla erotut kilpailijoistasi ja kasvatat liiketoimintaa.",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Kotisivut yritykselle",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Kotisivut yritykselle",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Kotisivut yritykselle",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
           ].map((service, i) => (
             <Link

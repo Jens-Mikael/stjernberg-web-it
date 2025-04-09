@@ -1,5 +1,4 @@
 import ButtonFilled from "@/components/buttons/ButtonFilled";
-import ButtonOutline from "@/components/buttons/ButtonOutline";
 import { Globe } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,25 +18,25 @@ export default function WebPagesFeatures() {
               description:
                 "Rakennamme yrityksellesi taloudelliseen hintaan käyttäjäystävälliset ja visuaalisesti näyttävät kotisivut, joiden avulla erotut kilpailijoistasi ja kasvatat liiketoimintaa.",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Hakukoneoptimointi (SEO)",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Yhteydenotto",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
             {
               title: "Asiakasreitti",
               description: "Palvelut",
               icon: Globe,
-              image: "/hero.jpeg",
+              image: "/hero-v3.jpg",
             },
           ].map((service, i) => (
             <Link
