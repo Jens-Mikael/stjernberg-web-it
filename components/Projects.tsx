@@ -1,9 +1,7 @@
-import { Globe } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import ButtonOutline from "./buttons/ButtonOutline";
-
 
 export default function Projects() {
   return (
@@ -15,38 +13,32 @@ export default function Projects() {
             {
               title: "Eskimovillage",
               description:
-                "Rakennamme yrityksellesi taloudelliseen hintaan käyttäjäystävälliset ja visuaalisesti näyttävät kotisivut, joiden avulla erotut kilpailijoistasi ja kasvatat liiketoimintaa.",
-              icon: Globe,
-              image: "/hero-v3.jpg",
+                "Suunnittelimme ja kehitimme verkkosovelluksen käyttöliittymän, parantaen sen nopeutta ja käytettävyyttä. Toteutimme myös reaaliaikaisen viestinnän ja hakukoneoptimoinnin, jotta palvelu toimii sujuvasti ja erottuu verkossa.",
+              image: "eskimovillage.png",
             },
             {
-              title: "Kotisivut yritykselle",
-              description: "Palvelut",
-              icon: Globe,
-              image: "/hero-v3.jpg",
+              title: "Hansatorin Apteekki",
+              description:
+                "Rakensimme apteekille Turussa verkkosivuston alusta loppuun, sekä suunnittelimme selkeän käyttöliittymän ja paransimme hakukonenäkyvyyttä. Vähensimme myös juksevia kuluja ja mahdollistimme sisällön helpon hallinnan Google Sheetsin avulla.",
+              image: "hansatorin-apteekki.png",
             },
-            {
-              title: "Kotisivut yritykselle",
-              description: "Palvelut",
-              icon: Globe,
-              image: "/hero-v3.jpg",
-            },
-            {
-              title: "Kotisivut yritykselle",
-              description: "Palvelut",
-              icon: Globe,
-              image: "/hero-v3.jpg",
-            },
+            // {
+            //   title: "Roof History",
+            //   description:
+            //     "Suunnittelimme ja rakensimme skaalautuvan verkkopalvelun tausta-arkkitehtuurin, huolehdimme tietoturvallisesta kirjautumisesta ja paransimme käyttöliittymää. Lisäksi tehostimme hakukonenäkyvyyttä ja integroimme osoitehaun Google Cloudin avulla, jotta palvelu olisi nopea, selkeä ja luotettava.",
+            //   icon: Globe,
+            //   image: "/hero-v3.jpg",
+            // },
           ].map((service, i) => (
             <Link
               href={`/`}
               key={i}
               className="aspect-3/4 sm:aspect-video rounded-[20px] overflow-hidden group relative group-hover:shadow-2xl shadow-xl text-content-light duration-500"
             >
-              <div className="absolute inset-0 z-[1] bg-gradient-to-b from-transparent via-black/70 lg:via-black/50 to-black/90 lg:to-black/80 duration-500 lg:group-hover:-translate-y-full transition-all"></div>
+              <div className="absolute inset-0 z-[1] bg-gradient-to-b from-transparent via-black/70 lg:via-black/20 to-black/70 lg:to-black/80 duration-500 lg:group-hover:-translate-y-full transition-all"></div>
               <div className="absolute inset-0 z-[1] bg-black/80 translate-y-[calc(100%-0.5px)] lg:group-hover:-translate-y-[0.5px] duration-500 transition-all"></div>
               <Image
-                src={service.image}
+                src={`/projects/${service.image}`}
                 alt={service.title}
                 fill
                 className="w-full h-full object-cover z-0 group-hover:scale-105 transition-all duration-500 "
@@ -62,9 +54,10 @@ export default function Projects() {
             </Link>
           ))}
         </div>
-        <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10 w-fit">Katso lisää</ButtonOutline>
+        <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10 w-fit">
+          Katso lisää
+        </ButtonOutline>
       </div>
-
     </div>
   );
 }
