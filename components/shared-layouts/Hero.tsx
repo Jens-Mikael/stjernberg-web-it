@@ -3,6 +3,7 @@ import ButtonFilled from "../buttons/ButtonFilled";
 import ButtonOutline from "../buttons/ButtonOutline";
 import QuoteIcon from "../svg/QuoteIcon";
 import { getTranslations } from "next-intl/server";
+import ButtonCTA from "../buttons/ButtonCTA";
 export default async function Hero({ page }: { page: string }) {
   const t = await getTranslations(`${page}.hero`);
 
@@ -15,7 +16,7 @@ export default async function Hero({ page }: { page: string }) {
             <QuoteIcon className="w-10 h-10" />
             <div className="flex flex-col">
               <p className="italic lg:text-lg">
-                “Täydellinen sivusto. Julkaisuun!”
+                {t("quote")}
               </p>
               <p className="lg:text-base text-sm">
                 -Harri Vaelilae, OnePointCode
@@ -28,13 +29,12 @@ export default async function Hero({ page }: { page: string }) {
             <h1>{t("headline")}</h1>
             <h4>{t("subheadline")}</h4>
             <div className="flex gap-5">
-              <ButtonFilled>Ota Yhteyttä</ButtonFilled>
-              <ButtonOutline>Tutustu töihin</ButtonOutline>
+              <ButtonCTA /> <ButtonOutline>{t("projects")}</ButtonOutline>
             </div>
           </div>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 lg:text-start text-center w-full gap-3 sm:gap-5 lg:gap-10 relative">
-          <p className="text-gray-300 lg:text-xl">Meihin luottaa:</p>
+          <p className="text-gray-300 lg:text-xl">{t("trusted-by")}</p>
           {[
             "one-point-code",
             "eskimo-village",

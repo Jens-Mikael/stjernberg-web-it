@@ -1,8 +1,26 @@
 {
+  "CTA": {
+    "contact": "Ota Yhteyttä"
+  },
+  "navbar": {
+    "home": "Koti",
+    "projects": "Projektit",
+    "contact": "Yhteystiedot",
+    "services": "Palvelut",
+    "services-nav": {
+      "web-pages": "Kotisivut yritykselle",
+      "frontend-backend": "Frontend ja backend-kehitys",
+      "cloud-integration": "Pilvi-integraatiot",
+      "ai-solutions": "Tekoälyratkaisut"
+    }
+  },
   "home": {
     "hero": {
       "headline": "Innovatiiviset ohjelmisto- ja IT-ratkaisut",
-      "subheadline": "Kehittämme tehokkaita IT-ratkaisuja, jotka varmistaa yritysten kilpailukykyä muuttuvassa maailmassa."
+      "subheadline": "Kehittämme tehokkaita IT-ratkaisuja, jotka varmistaa yritysten kilpailukykyä muuttuvassa maailmassa.",
+      "quote": "Täydellinen sivusto. Julkaisuun!",
+      "projects": "Tutustu töihin",
+      "trusted-by": "Meihin luottaa:"
     }
   },
   "services": {

@@ -31,14 +31,12 @@ export default function ContactForm() {
   } = useForm<TContactSchema>({
     resolver: zodResolver(schema),
   });
-  const message = watch("message");
-
   const onSubmit = (data: TContactSchema) => {
     console.log(data);
   };
 
   return (
-    <div className="flex justify-center py-20 px-2 sm:px-10 lg:px-20 xl:px-30 ">
+    <div id="contact" className="flex justify-center py-20 px-2 sm:px-10 lg:px-20 xl:px-30 ">
       <div className="max-w-2xl bg-base-dark text-content-light w-full flex flex-col gap-5 rounded-[20px] p-5 sm:p-10">
         <div className="flex flex-col gap-2">
           <h2 className="text-2xl lg:text-4xl font-bold mb-3">
