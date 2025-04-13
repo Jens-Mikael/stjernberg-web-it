@@ -6,6 +6,7 @@ import Textarea from "./input/Textarea";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import ButtonFilled from "./buttons/ButtonFilled";
+import { useTranslations } from "next-intl";
 
 const schema = z.object({
   name: z.string().min(1, "Name is required"),
@@ -23,6 +24,8 @@ const schema = z.object({
 type TContactSchema = z.infer<typeof schema>;
 
 export default function ContactForm() {
+  const t = useTranslations("contact");
+
   const {
     register,
     handleSubmit,
@@ -36,16 +39,16 @@ export default function ContactForm() {
   };
 
   return (
-    <div id="contact" className="flex justify-center py-20 px-2 sm:px-10 lg:px-20 xl:px-30 ">
+    <div
+      id="contact"
+      className="flex justify-center py-20 px-2 sm:px-10 lg:px-20 xl:px-30 "
+    >
       <div className="max-w-2xl bg-base-dark text-content-light w-full flex flex-col gap-5 rounded-[20px] p-5 sm:p-10">
         <div className="flex flex-col gap-2">
           <h2 className="text-2xl lg:text-4xl font-bold mb-3">
-            Pyydä tarjous projektiisi!
+            {t("headline")}
           </h2>
-          <p className=" text-content-gray">
-            Ota yhteyttä meihin ja pyydä tarjous IT-projektiisi, jotta
-            pääsisimme mahdollisimman nopeasti aloittamaan!
-          </p>
+          <p className=" text-content-gray">{t("subheadline")}</p>
         </div>
         <form
           className="flex flex-col gap-7 "
@@ -53,35 +56,35 @@ export default function ContactForm() {
         >
           <div className="flex flex-col gap-4">
             <InputText
-              label="Nimesi"
+              label={t("name.label")}
               id="name"
-              placeholder="Matti Meikäläinen"
+              placeholder={t("name.placeholder")}
               {...register("name")}
               error={errors.name?.message}
             />
             <InputText
-              label="Sähköpostiosoite"
+              label={t("email.label")}
               id="email"
-              placeholder="matti@meikalainen.fi"
+              placeholder={t("email.placeholder")}
               {...register("email")}
               error={errors.email?.message}
             />
             <InputText
-              label="Puhelinnumero"
+              label={t("phone.label")}
               id="phone"
-              placeholder="+358401234567"
+              placeholder={t("phone.placeholder")}
               {...register("phone")}
               error={errors.phone?.message}
             />
             <Textarea
-              label="Kerro tavoitteistasi"
+              label={t("message.label")}
               id="message"
-              placeholder="Haluan parantaa kotisivujani..."
+              placeholder={t("message.placeholder")}
               {...register("message")}
               error={errors.message?.message}
             />
           </div>
-          <ButtonFilled type="submit">Lähetä</ButtonFilled>
+          <ButtonFilled type="submit">{t("submit")}</ButtonFilled>
         </form>
       </div>
     </div>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@bprogress/next": "^3.2.11",
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-popover": "^1.1.6",
     "class-variance-authority": "^0.7.1",

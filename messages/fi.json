@@ -2,6 +2,12 @@
   "CTA": {
     "contact": "Ota Yhteyttä"
   },
+  "hero": {
+    "trusted-by": "Meihin luottaa:",
+    "projects": "Tutustu töihin",
+    "quote": "Kestäviä, tehokkaita ja skaalautuvia tuloksia. Erittäin suositeltavaa!",
+    "quote-author": "-Dan Sveen, Roof History"
+  },
   "navbar": {
     "home": "Koti",
     "projects": "Projektit",
@@ -14,20 +20,184 @@
       "ai-solutions": "Tekoälyratkaisut"
     }
   },
+  "footer": {
+    "VAT-ID": "Y-tunnus: 3469579-5",
+    "address": "Käpylänkatu 3, 28120 Pori, Suomi",
+    "navigation": "NAVIGOINTI"
+  },
+  "contact": {
+    "headline": "Pyydä tarjous projektiisi!",
+    "subheadline": "Ota yhteyttä meihin ja pyydä tarjous IT-projektiisi, jotta pääsisimme mahdollisimman nopeasti aloittamaan!",
+    "submit": "Lähetä",
+    "success": "Kiitos viestistäsi! Olemme saaneet sen ja vastaamme mahdollisimman pian.",
+    "error": "Jotain meni pieleen, yritä uudelleen.",
+    "name": {
+      "label": "Nimesi",
+      "placeholder": "Matti Meikäläinen"
+    },
+    "email": {
+      "label": "Sähköpostisi",
+      "placeholder": "matti.meikalainen@gmai.com"
+    },
+    "phone": {
+      "label": "Puhelinnumero",
+      "placeholder": "+358 40 123 4567"
+    },
+    "message": {
+      "label": "Kerro tavoitteesi",
+      "placeholder": "Haluan parantaa kotisivujani..."
+    }
+  },
+  "about": {
+    "headline": "Moro 👋",
+    "description": "Olen Jens-Mikael Stjernberg, 18-vuotias nuori yrittäjä Porista. Minulla on ohjelmointitaustaa jo neljän vuoden ajalta, ja vaikka olenkin vielä lukiossa, kehittelen intohimolla ammattilaistasoisia web-projekteja.\n\nPerustin Stjernberg Web and IT Services -yrityksen syksyllä 2024, kun perinteiset kesätyöt eivät enää innostaneet ja halusin kohdata uusia haasteita yrittäjänä ohjelmistojen maailmassa. Tähän päivään mennessä olen toteuttanut lukuisia IT-projekteja maailmanlaajuisesti – Suomen lisäksi muun muassa Yhdysvaltoihin ja Saksaan.\n\nMusiikki ja liikunta ovat aina olleet minulle tärkeitä. Kun en ole tietokoneen ääressä ohjelmoimassa, soitan kitaraa tai pianoa, tai käyn salilla treenaamassa niin kovaa, että seuraavana päivänä liikkuminen on jo haastavaa.\n\nTulen monikielisestä yrittäjäperheestä Norjasta, ja kotona puhumme kolmea eri kieltä: suomea, ruotsia ja norjaa. Tämän lisäksi puhun sujuvasti englantia ja olen opiskellut saksaa koulussa jo yläasteelta lähtien (yhteensä 5 vuotta).\n\nJos siis etsit intohimoista ja monikielistä IT-apua, ota rohkeasti yhteyttä – tehdään visioistasi totta!"
+  },
   "home": {
     "hero": {
       "headline": "Innovatiiviset ohjelmisto- ja IT-ratkaisut",
       "subheadline": "Kehittämme tehokkaita IT-ratkaisuja, jotka varmistaa yritysten kilpailukykyä muuttuvassa maailmassa.",
-      "quote": "Täydellinen sivusto. Julkaisuun!",
-      "projects": "Tutustu töihin",
-      "trusted-by": "Meihin luottaa:"
+      "projects": "Tutustu töihin"
     }
   },
+  "contact-info-page": {
+    "headline": "Yhteystiedot",
+    "subheadline": "Ota yhteyttä meihin sähköpostitse tai täytä yhteydenottolomake, niin pääsemme aloittelemaan projektisi mahdollisimman nopeasti."
+  },
+  "projects-page": {
+    "headline": "Projektit",
+    "subheadline": "Tässä on joitakin projekteista, joita olemme toteuttaneet."
+  },
   "services": {
+    "headline": "Palvelut:",
     "web-pages": {
       "hero": {
         "headline": "Modernit nettisivut yrityksille",
-        "subheadline": "Rakennamme ammattimaiset, räätälöidyt ja hakukoneoptimoidut verkkosivut yritykselle, jotka tuottavat asiakkaita."
+        "subheadline": "Rakennamme ammattimaiset, räätälöidyt ja hakukoneoptimoidut verkkosivut yritykselle, mitkä tuottavat asiakkaita."
+      },
+      "description": "Rakennamme ammattimaiset, räätälöidyt ja hakukoneoptimoidut verkkosivut yritykselle, mitkä tuottavat asiakkaita.",
+      "title": "Kotisivut yritykselle",
+      "how-it-works": {
+        "headline": "Kerro liiketoimintasi ja tavoitteet, me hoidamme loput.",
+        "steps": {
+          "1": {
+            "headline": "Kerro liiketoiminnasta",
+            "description": "Kerro meille yrityksesi liiketoiminnasta, palveluista ja sen tavoitteista, jotta saisimme mahdollisen hyvän kuvan miten sivustot rakennetaan parhaiten."
+          },
+          "2": {
+            "headline": "Kommentoi luonnoksia",
+            "description": "Anna palautetta ja kommentoi luonnoksia sekä ideoita, jotta vältyttäisiin erehdyksistä ja varmistetaan, että sivustot on juuri sellainen kuin halut."
+          },
+          "3": {
+            "headline": "Rakennamme sivusi",
+            "description": "Sen jälkeen kun olemme saaneet kaikki tarvittavat tiedot, rakennamme sivusi. Pidämme teidät myös ajan tasalla sivuston kehityksestä ja edistyksestä."
+          }
+        }
+      },
+      "why-important": {
+        "headline": "Miksi pätevät sivut ovat elintärkeät?",
+        "items": {
+          "1": {
+            "headline": "61 %",
+            "description": "vierailijoista poistuu, elleivät löydä etsimäänsä 5 sekunnissa."
+          },
+          "2": {
+            "headline": "5 ms",
+            "description": "kestää asiakkaalle mielipiteen luomiseen sivusta."
+          },
+          "3": {
+            "headline": "38 %",
+            "description": "ihmisistä lopettaa sivuston käytön, jos layout tai sisältö ei ole houkutteleva."
+          },
+          "4": {
+            "headline": "97 %",
+            "description": "asiakkaista löytää yrityksen netin kautta, jonka takia näkyvyys on ratkaisevaa."
+          }
+        }
+      },
+      "features": {
+        "headline": "Tuotamme nettisivuille kaiken tarvittavan:",
+        "footer": "...ja kaikkea muuta mitä saatat tarvita. Ota yhteyttä meihin ja sano mitä tarvitset. \n\nHuom! Jos etsit teknisempiä palveluita, katso [tästä](/).",
+        "items": {
+          "1": {
+            "headline": "Visuaalisuus",
+            "description": "Rakennamme yrityksellesi taloudelliseen hintaan käyttäjäystävälliset ja visuaalisesti näyttävät kotisivut, joiden avulla erotut kilpailijoistasi ja kasvatat liiketoimintaa."
+          },
+          "2": {
+            "headline": "Hakukoneoptimointi (SEO)",
+            "description": "Koska suurin osa asiakkaista löytävät yrityksen netin kautta, on hakukoneoptimointi (SEO) ratkaisevaa. Varmistamme siis sivustolle parhaan mahdollisen näkyvyyden ja avainsanojen hyödyntämisen."
+          },
+          "3": {
+            "headline": "Yhteydenotto",
+            "description": "Integroimme yhteydenottomahdollisuuden suoraan sivustolle, jotta asiakkaat voivat mahdollisimman pienellä kynnyksellä lähettää viestin."
+          },
+          "4": {
+            "headline": "Asiakasreitti",
+            "description": "Rakennamme sivuston siten, että asiakkaat löytävät mahdollisimman helposti tarvitsemansa tiedon sekä palvelut ilman turhaa etsimistä."
+          }
+        }
+      },
+      "formula": {
+        "headline": "Sivustot maksavat itsensä takaisin.",
+        "subheadline": "Verkkosivut ovat investointi yritykselle, joka mahdollistaa sujuvan liiketoiminnan ja asiakashankinnanprosessin.",
+        "service-price": "Palveluksen hinta",
+        "contact-price": "Yhteydenototo",
+        "value-price": "Verkkosivustojen arvo"
+      }
+    },
+    "frontend-backend": {
+      "hero": {
+        "headline": "Frontend ja backend-kehitys",
+        "subheadline": "Tarjoamme frontend- ja backend-kehitystä verkkoapplikaatioihin, oli kyseessä tietokantojen, rajapintojen, maksujärjestelmien, tai muiden komponenttien toteuttamista."
+      },
+      "description": "Tarjoamme frontend- ja backend-kehitystä verkkoapplikaatioihin, oli kyseessä tietokantojen, rajapintojen, maksujärjestelmien, tai muiden komponenttien toteuttamista.",
+      "title": "Frontend ja backend-kehitys"
+    },
+    "cloud-integration": {
+      "hero": {
+        "headline": "Pilvi-integraatiot",
+        "long-description": "Hoidamme kaikki pilvipalvelujen käyttöönotosta, hallintaan ja integrointiin. Meillä on monen vuoden kokemus löytää ja toteuttaa tehokkaat ja taloudellisesti kestävät ratkaisut.",
+        "subheadline": "Hoidamme kaikki pilvipalvelujen käyttöönotosta, hallintaan ja integrointiin."
+      },
+      "long-description": "Hoidamme kaikki pilvipalvelujen käyttöönotosta, hallintaan ja integrointiin."
+    },
+    "ai-solutions": {
+      "hero": {
+        "headline": "Tekoälyratkaisut",
+        "subheadline": "Tarjoamme frontend- ja backend-kehitystä verkkoapplikaatioihin, oli kyseessä tietokantojen, rajapintojen, maksujärjestelmien, tai muiden komponenttien toteuttamista."
+      },
+      "long-description": "Tarjoamme frontend- ja backend-kehitystä verkkoapplikaatioihin, oli kyseessä tietokantojen, rajapintojen, maksujärjestelmien, tai muiden komponenttien toteuttamista."
+    }
+  },
+
+  "projects": {
+    "headline": "Projektit:",
+    "more": "Katso lisää",
+    "items": {
+      "eskimo-village": {
+        "title": "Eskimovillage",
+        "description": "Suunnittelimme ja kehitimme verkkosovelluksen käyttöliittymän, parantaen sen nopeutta ja käytettävyyttä. Toteutimme myös reaaliaikaisen viestinnän ja hakukoneoptimoinnin, jotta palvelu toimii sujuvasti ja erottuu verkossa."
+      },
+      "hansatorin-apteekki": {
+        "title": "Hansatorin Apteekki",
+        "description": "Rakensimme apteekille Turussa verkkosivuston alusta loppuun, sekä suunnittelimme selkeän käyttöliittymän ja paransimme hakukonenäkyvyyttä. Vähensimme myös juksevia kuluja ja mahdollistimme sisällön helpon hallinnan Google Sheetsin avulla."
+      },
+      "roof-history": {
+        "title": "Roof History",
+        "description": "Suunnittelimme ja rakensimme verkkosivulle skaalautuvan palvelinarkkitehtuurin, huolehdimme tietoturvallisesta kirjautumisesta ja paransimme käyttöliittymää. Lisäksi tehostimme hakukonenäkyvyyttä ja integroimme osoitehaun Google Cloudin avulla, jotta palvelu olisi nopea, selkeä ja luotettava."
+      }
+    }
+  },
+  "testimonials": {
+    "headline": "Käyttäjien kokemukset:",
+    "items": {
+      "harri-vaelilae": {
+        "content": "Poikkeukselliset freelance-palvelut! He ovat erittäin taitavia ja nopeita koodaamaan, ja heillä on huomattavat kyvyt oppia ja sopeutua. He antoivat jatkuvasti arvokkaita ehdotuksia, joista on ollut paljon hyötyä projekteillemme. Heillä on vankka käsitys nykyaikaisista standardeista ja he toimivat saumattomasti niiden puitteissa. Heidän iloinen, ennakoiva ja älykäs lähestymistapansa teki yhteistyöstä vaivatonta ja nautinnollista. Erittäin suositeltavaa!"
+      },
+      "dan-sveen": {
+        "content": "Palkkasin heidät äskettäin kehittämään verkkosivustoni palvelinta, enkä voisi olla tyytyväisempi vankoihin, tehokkaisiin ja skaalautuviin tuloksiin. He pitivät saumatonta viestintää, tarjosivat arvokkaita oivalluksia, ja suosittelen heidän korkealaatuisia backend-palveluja."
+      },
+      "hannu-valve": {
+        "content": "Työskentely heidän kanssaan oli upea kokemus – he olivat yksityiskohtiin suuntautuneita, proaktiivisia haasteiden ratkaisemisessa ja varmistivat sujuvan viestinnän kauttaaltaan. Heidän omistautumisensa ja sitoutumisensa teki koko projektista saumattoman ja nautinnollisen."
       }
     }
   }

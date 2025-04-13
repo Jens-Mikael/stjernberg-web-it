@@ -33,24 +33,25 @@ const services = [
     key: "web-pages",
     href: "/web-pages",
   },
-  {
-    key: "frontend-backend",
-    href: "/software-development",
-  },
-  {
-    key: "cloud-integration",
-    href: "/cloud-integration",
-  },
-  {
-    key: "ai-solutions",
-    href: "/ai-solutions",
-  },
+  // {
+  //   key: "frontend-backend",
+  //   href: "/software-development",
+  // },
+  // {
+  //   key: "cloud-integration",
+  //   href: "/cloud-integration",
+  // },
+  // {
+  //   key: "ai-solutions",
+  //   href: "/ai-solutions",
+  // },
 ];
 
 export default function Navbar() {
   const [isAtTop, setIsAtTop] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const t = useTranslations("navbar");
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -111,20 +112,26 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-10">
             <Link
               href="/"
-              className="hover:underline cursor-pointer font-medium"
+              className={`hover:underline cursor-pointer font-medium ${
+                pathname === "/" ? "underline" : ""
+              }`}
             >
               {t("home")}
             </Link>
             <ServicesNav />
             <Link
               href="/projects"
-              className="hover:underline cursor-pointer font-medium"
+              className={`hover:underline cursor-pointer font-medium ${
+                pathname === "/projects" ? "underline" : ""
+              }`}
             >
               {t("projects")}
             </Link>
             <Link
               href="/contact"
-              className="hover:underline cursor-pointer font-medium"
+              className={`hover:underline cursor-pointer font-medium ${
+                pathname === "/contact" ? "underline" : ""
+              }`}
             >
               {t("contact")}
             </Link>
@@ -249,10 +256,15 @@ const LanguageNav = () => {
 const ServicesNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations("navbar");
+  const pathname = usePathname();
   return (
     <Popover open={isOpen} onOpenChange={setIsOpen}>
       <PopoverTrigger className="cursor-pointer flex items-center gap-2">
-        <p className="text-lg lg:text-base font-medium hover:text-main md:hover:text-white  transition-colors">
+        <p
+          className={`text-lg lg:text-base font-medium hover:text-main md:hover:text-white  transition-colors ${
+            pathname.includes("/services") ? "underline" : ""
+          }`}
+        >
           {t("services")}
         </p>
         <ChevronDown
@@ -264,7 +276,9 @@ const ServicesNav = () => {
           <Link
             key={service.key}
             href={`/services/${service.href}`}
-            className="flex items-center gap-2 hover:bg-gray-100/50 rounded-md py-2 px-3"
+            className={`flex items-center gap-2 hover:bg-gray-100/50 rounded-md py-2 px-3 ${
+              pathname.includes(service.href) ? "underline" : ""
+            }`}
             onClick={() => setIsOpen(false)}
           >
             {t(`services-nav.${service.key}`)}

@@ -6,6 +6,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { headers } from "next/headers";
+import Providers from "../Providers";
 
 const gabarito = Gabarito({
   variable: "--font-gabarito",
@@ -24,7 +25,6 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }) {
-  
   // Ensure that the incoming `locale` is valid
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
@@ -34,10 +34,12 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className={`${gabarito.variable} antialiased `}>
-        <NextIntlClientProvider>
-          <Navbar />
-          {children}
-        </NextIntlClientProvider>
+        <Providers>
+          <NextIntlClientProvider>
+            <Navbar />
+            {children}
+          </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );
