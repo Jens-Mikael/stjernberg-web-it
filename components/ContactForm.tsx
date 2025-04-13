@@ -30,7 +30,6 @@ export default function ContactForm() {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
   } = useForm<TContactSchema>({
     resolver: zodResolver(schema),
   });

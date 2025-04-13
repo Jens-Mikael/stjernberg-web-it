@@ -1,9 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import ButtonOutline from "../buttons/ButtonOutline";
 import { useEffect, useRef, useState } from "react";
-import ButtonCTA from "../buttons/ButtonCTA";
 import { useTranslations } from "next-intl";
 import { Mail } from "lucide-react";
 import Link from "next/link";

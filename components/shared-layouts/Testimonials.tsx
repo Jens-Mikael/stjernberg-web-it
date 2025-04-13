@@ -39,7 +39,7 @@ export default function Testimonials() {
               className="flex flex-col gap-3 p-5 md:p-8 bg-base-light rounded-[20px]"
             >
               <QuoteIcon className="w-10 h-10" />
-              <p className="text-content-dark flex-1">"{t(`items.${testimonial.key}.content`)}"</p>
+              <p className="text-content-dark flex-1">&quot;{t(`items.${testimonial.key}.content`)}&quot;</p>
               <div className="w-full border-b border-gray-200" />
               <div className="flex items-center justify-between">
                 <div>

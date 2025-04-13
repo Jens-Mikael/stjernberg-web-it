@@ -1,7 +1,4 @@
-import AboutMe from "../AboutMe";
-import ContactForm from "../ContactForm";
 import Footer from "./Footer";
-import Hero from "./Hero";
 import MinimalHero from "./MinimalHero";
 
 export default function MinimalLayout({

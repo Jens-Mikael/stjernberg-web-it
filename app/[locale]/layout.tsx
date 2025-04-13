@@ -5,7 +5,6 @@ import Navbar from "@/components/shared-layouts/Navbar";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import { headers } from "next/headers";
 import Providers from "../Providers";
 
 const gabarito = Gabarito({

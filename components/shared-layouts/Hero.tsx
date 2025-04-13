@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import ButtonFilled from "../buttons/ButtonFilled";
 import ButtonOutline from "../buttons/ButtonOutline";
 import QuoteIcon from "../svg/QuoteIcon";
 import { useEffect, useRef, useState } from "react";

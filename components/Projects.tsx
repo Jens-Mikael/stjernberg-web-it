@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import ButtonOutline from "./buttons/ButtonOutline";
 import { useTranslations } from "next-intl";
-import ButtonCTA from "./buttons/ButtonCTA";
 
 const projectsPreview = [
   {

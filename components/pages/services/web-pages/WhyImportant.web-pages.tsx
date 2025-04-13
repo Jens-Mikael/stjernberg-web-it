@@ -1,27 +1,5 @@
 import { useTranslations } from "next-intl";
 
-const reasons = [
-  {
-    title: "61 %",
-    description:
-      "vierailijoista poistuu, elleivät löydä etsimäänsä 5 sekunnissa.",
-  },
-  {
-    title: "61 %",
-    description:
-      "vierailijoista poistuu, elleivät löydä etsimäänsä 5 sekunnissa.",
-  },
-  {
-    title: "61 %",
-    description:
-      "vierailijoista poistuu, elleivät löydä etsimäänsä 5 sekunnissa.",
-  },
-  {
-    title: "61 %",
-    description:
-      "vierailijoista poistuu, elleivät löydä etsimäänsä 5 sekunnissa.",
-  },
-];
 
 export default function WebPagesWhyImportant() {
   const t = useTranslations("services.web-pages.why-important");

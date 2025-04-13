@@ -5,7 +5,6 @@ export default function InputText({
   className,
   label,
   id,
-  helperText,
   error,
   ...props
 }: {

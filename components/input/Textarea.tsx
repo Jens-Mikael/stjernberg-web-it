@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import React, { useRef, useEffect } from "react";
+import React, { useEffect, useCallback } from "react";
 import FieldError from "./FieldError";
 
 export default function Textarea({
@@ -17,17 +17,17 @@ export default function Textarea({
   error?: string;
   id: string;
 } & React.TextareaHTMLAttributes<HTMLTextAreaElement>) {
-  const adjustHeight = () => {
+  const adjustHeight = useCallback(() => {
     const textarea = document.getElementById(id);
     if (textarea) {
       textarea.style.height = "auto";
       textarea.style.height = `${textarea.scrollHeight}px`;
     }
-  };
+  }, [id]);
 
   useEffect(() => {
     adjustHeight();
-  }, [value]);
+  }, [value, adjustHeight]);
 
   return (
     <div className="flex flex-col gap-1 text-start">
@@ -36,7 +36,7 @@ export default function Textarea({
           {label}
         </label>
       )}
-    
+
       <textarea
         className={cn(
           "w-full rounded-md  bg-gray-100 text-content-dark px-3 py-2",

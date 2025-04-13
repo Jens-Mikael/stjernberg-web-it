@@ -1,10 +1,8 @@
 import ButtonCTA from "@/components/buttons/ButtonCTA";
-import ButtonFilled from "@/components/buttons/ButtonFilled";
 import { renderMarkdownWithLinks } from "@/lib/utils";
-import { Contact, Eye, Globe, Route, Search } from "lucide-react";
+import { Contact, Eye, Route, Search } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const features = [
