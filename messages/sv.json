@@ -29,6 +29,8 @@
     "headline": "Begär en offert för ditt projekt!",
     "subheadline": "Kontakta oss och be om en offert för ditt IT-projekt så att vi kan komma igång så snart som möjligt!",
     "submit": "Skicka",
+    "loading": "Skickar...",
+
     "success": "Tack för ditt meddelande! Vi har tagit emot det och återkommer så snart som möjligt.",
     "error": "Något gick fel, försök igen.",
     "name": {

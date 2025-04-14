@@ -29,6 +29,7 @@
     "headline": "Request a quote for your project!",
     "subheadline": "Get in touch with us and request a quote for your IT project so we can get started as soon as possible!",
     "submit": "Send",
+    "loading": "Sending...",
     "success": "Thank you for your message! We've received it and will respond as soon as possible.",
     "error": "Something went wrong, please try again.",
     "name": {

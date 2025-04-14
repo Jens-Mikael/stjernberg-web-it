@@ -29,6 +29,7 @@
     "headline": "Pyydä tarjous projektiisi!",
     "subheadline": "Ota yhteyttä meihin ja pyydä tarjous IT-projektiisi, jotta pääsisimme mahdollisimman nopeasti aloittamaan!",
     "submit": "Lähetä",
+    "loading": "Lähetetään...",
     "success": "Kiitos viestistäsi! Olemme saaneet sen ja vastaamme mahdollisimman pian.",
     "error": "Jotain meni pieleen, yritä uudelleen.",
     "name": {

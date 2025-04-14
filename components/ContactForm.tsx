@@ -1,5 +1,4 @@
 "use client";
-import { z } from "zod";
 import InputText from "./input/Input";
 import Textarea from "./input/Textarea";
 
@@ -7,35 +6,37 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import ButtonFilled from "./buttons/ButtonFilled";
 import { useTranslations } from "next-intl";
-
-const schema = z.object({
-  name: z.string().min(1, "Name is required"),
-  email: z
-    .string()
-    .min(1, "Email is required")
-    .email({ message: "Email is invalid" }),
-  phone: z
-    .string()
-    .min(1, "Phone is required")
-    .regex(/^\+\d{5,15}$/, "Phone must start with + and contain 5-15 numbers"),
-  message: z.string().min(1, "Message is required"),
-});
-
-type TContactSchema = z.infer<typeof schema>;
+import { contactSchema, TContactSchema } from "@/schema";
+import { sendEmailAction } from "@/actions/sendEmail";
+import { toast } from "sonner";
+import { useState } from "react";
+import { Loader2 } from "lucide-react";
 
 export default function ContactForm() {
   const t = useTranslations("contact");
-
+  const [isLoading, setIsLoading] = useState(false);
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm<TContactSchema>({
-    resolver: zodResolver(schema),
+    resolver: zodResolver(contactSchema),
   });
-  const onSubmit = (data: TContactSchema) => {
-    console.log(data);
-  };
+  async function onSubmit(data: TContactSchema) {
+    setIsLoading(true);
+    const res = await sendEmailAction(data);
+    if (res.data) {
+      toast(t("success"));
+      reset({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    } else if (res.error) toast(t("error"));
+    setIsLoading(false);
+  }
 
   return (
     <div
@@ -83,7 +84,16 @@ export default function ContactForm() {
               error={errors.message?.message}
             />
           </div>
-          <ButtonFilled type="submit">{t("submit")}</ButtonFilled>
+          <ButtonFilled type="submit" disabled={isLoading}>
+            {isLoading ? (
+              <>
+                <Loader2 className="w-5 h-5 animate-spin" />
+                {t("loading")}
+              </>
+            ) : (
+              t("submit")
+            )}
+          </ButtonFilled>
         </form>
       </div>
     </div>
