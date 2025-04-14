@@ -1,4 +1,6 @@
-export default async function sitemap() {
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ["en", "fi", "sv"];
   const pages = [
     {
@@ -24,11 +26,9 @@ export default async function sitemap() {
       url: `${process.env.NEXT_PUBLIC_APP_URL}/${locale}${page.url}`,
       lastModified: new Date(),
       priority: page.priority,
-      changeFrequency: "weekly",
+      changeFrequency: "weekly" as const,
     }))
-  );
-
-  console.log(sitemap);
+  ).flat();
 
   return sitemap;
 }

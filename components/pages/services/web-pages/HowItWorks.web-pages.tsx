@@ -1,3 +1,4 @@
+import ButtonCTA from "@/components/buttons/ButtonCTA";
 import ButtonFilled from "@/components/buttons/ButtonFilled";
 import { useTranslations } from "next-intl";
 
@@ -25,7 +26,7 @@ export default function WebPagesHowItWorks() {
             </div>
           ))}
         </div>
-        <ButtonFilled>Ota yhteyttä</ButtonFilled>
+        <ButtonCTA />
       </div>
     </div>
   );

@@ -9,22 +9,22 @@ const features = [
   {
     key: "1",
     icon: Eye,
-    image: "/hero-v3.jpg",
+    image: "/hero.jpg",
   },
   {
     key: "2",
     icon: Search,
-    image: "/hero-v3.jpg",
+    image: "/hero.jpg",
   },
   {
     key: "3",
     icon: Contact,
-    image: "/hero-v3.jpg",
+    image: "/hero.jpg",
   },
   {
     key: "4",
     icon: Route,
-    image: "/hero-v3.jpg",
+    image: "/hero.jpg",
   },
 ];
 export default function WebPagesFeatures() {

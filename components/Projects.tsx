@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import ButtonOutline from "./buttons/ButtonOutline";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 const projectsPreview = [
   {
@@ -69,9 +69,11 @@ export default function Projects({ showAll }: { showAll?: boolean }) {
           ))}
         </div>
         {!showAll && (
-          <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10 w-fit">
-            {t("more")}
-          </ButtonOutline>
+          <Link href="/projects">
+            <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10 w-fit">
+              {t("more")}
+            </ButtonOutline>
+          </Link>
         )}
       </div>
     </div>
