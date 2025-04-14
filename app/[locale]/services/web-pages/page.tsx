@@ -1,5 +1,6 @@
 import WebPagesService from "@/components/pages/services/web-pages";
 import { Metadata } from "next";
+import { getLocale } from "next-intl/server";
 
 const dynamicMetadata = {
   en: {
@@ -20,16 +21,9 @@ const dynamicMetadata = {
   },
 };
 
-interface IProps {
-  children: React.ReactNode;
-  params: Promise<{ locale: string }>;
-}
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = (await getLocale()) as keyof typeof dynamicMetadata;
 
-export async function generateMetadata(
-  { params }: IProps,
-): Promise<Metadata> {
-  // read route params
-  const { locale } = (await params) as { locale: keyof typeof dynamicMetadata };
 
   return {
     metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL as string),
