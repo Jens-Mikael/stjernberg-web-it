@@ -38,7 +38,7 @@ export default function Projects({ showAll }: { showAll?: boolean }) {
   const t = useTranslations("projects");
 
   return (
-    <div className="px-5 sm:px-10 lg:px-20 xl:px-30 py-20 flex justify-center">
+    <div id="projects" className="px-5 sm:px-10 lg:px-20 xl:px-30 py-20 flex justify-center">
       <div className="flex flex-col gap-10 max-w-[1800px] w-full">
         <h2 className="text-4xl font-bold">{t("headline")}</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-5 xl:gap-20 w-full">

@@ -1,6 +1,5 @@
 "use client";
 import { Link, usePathname } from "@/i18n/navigation";
-import ButtonFilled from "../buttons/ButtonFilled";
 import { useEffect, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import ButtonOutline from "../buttons/ButtonOutline";
@@ -51,6 +50,7 @@ export default function Navbar() {
   const [isAtTop, setIsAtTop] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const t = useTranslations("navbar");
+  const heroOther = useTranslations("hero");
   const pathname = usePathname();
 
   useEffect(() => {
@@ -188,10 +188,12 @@ export default function Navbar() {
               Yhteystiedot
             </Link>
             <div className="flex flex-col gap-2">
-              <ButtonFilled>Ota Yhteyttä</ButtonFilled>
-              <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10">
-                Tutustu töihin
-              </ButtonOutline>
+              <ButtonCTA className="w-full" />{" "}
+              <Link href="/projects">
+                <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10">
+                  {heroOther("projects")}
+                </ButtonOutline>
+              </Link>
             </div>
             <LanguageNav />
           </div>

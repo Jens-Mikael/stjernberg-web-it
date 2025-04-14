@@ -6,6 +6,7 @@ import QuoteIcon from "../svg/QuoteIcon";
 import { useEffect, useRef, useState } from "react";
 import ButtonCTA from "../buttons/ButtonCTA";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function Hero({ page }: { page: string }) {
   const [showHeroBackground, setShowHeroBackground] = useState(true);
@@ -47,7 +48,9 @@ export default function Hero({ page }: { page: string }) {
             <h4>{t("subheadline")}</h4>
             <div className="flex gap-5">
               <ButtonCTA />{" "}
-              <ButtonOutline>{heroOther("projects")}</ButtonOutline>
+              <Link href="#projects">
+                <ButtonOutline>{heroOther("projects")}</ButtonOutline>
+              </Link>
             </div>
           </div>
         </div>
