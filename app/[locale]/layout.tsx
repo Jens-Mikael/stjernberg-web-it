@@ -6,8 +6,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Providers from "../Providers";
-import { Analytics } from "@vercel/analytics/react"
-
+import { PostHogProvider } from "@/components/PostHogProvider";
 
 const gabarito = Gabarito({
   variable: "--font-gabarito",
@@ -37,9 +36,7 @@ interface IProps {
   params: Promise<{ locale: string }>;
 }
 
-export async function generateMetadata(
-  { params }: IProps,
-): Promise<Metadata> {
+export async function generateMetadata({ params }: IProps): Promise<Metadata> {
   // read route params
   const { locale } = (await params) as { locale: keyof typeof dynamicMetadata };
 
@@ -71,13 +68,14 @@ export default async function RootLayout({ children, params }: IProps) {
   return (
     <html lang={locale}>
       <body className={`${gabarito.variable} antialiased `}>
-        <Providers>
-          <NextIntlClientProvider>
-            <Navbar />
-            {children}
-            <Analytics />
-          </NextIntlClientProvider>
-        </Providers>
+        <PostHogProvider>
+          <Providers>
+            <NextIntlClientProvider>
+              <Navbar />
+              {children}{" "}
+            </NextIntlClientProvider>
+          </Providers>
+        </PostHogProvider>
       </body>
     </html>
   );
