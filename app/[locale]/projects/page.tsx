@@ -47,7 +47,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function Page() {
   return (
     <MinimalLayout page="projects-page">
-      <Projects showAll={true} />
+      <Projects isProjectsPage={true} />
       <ContactForm />
     </MinimalLayout>
   );
