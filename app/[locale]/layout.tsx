@@ -6,7 +6,6 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Providers from "../Providers";
-import { PostHogProvider } from "@/components/PostHogProvider";
 import Script from "next/script";
 
 const gabarito = Gabarito({
