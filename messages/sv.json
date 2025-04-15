@@ -1,15 +1,204 @@
 {
-  "home": {
-    "hero": {
-      "headline": "Innovativa programvaror och IT-lösningar",
-      "subheadline": "Vi strävar efter att utveckla effektiva IT-lösningar som säkerställer företagens konkurrenskraft i en föränderlig värld."
+  "CTA": {
+    "contact": "Kontakta oss"
+  },
+  "hero": {
+    "trusted-by": "Betrodda av:",
+    "projects": "Utforska projekt",
+    "quote": "Pålitliga, effektiva och skalbara resultat. Rekommenderas starkt!",
+    "quote-author": "-Dan Sveen, Roof History"
+  },
+  "navbar": {
+    "home": "Hem",
+    "projects": "Projekt",
+    "contact": "Kontakt",
+    "services": "Tjänster",
+    "services-nav": {
+      "web-pages": "Företagswebbplatser",
+      "frontend-backend": "Frontend & Backend-utveckling",
+      "cloud-integration": "Cloud-integrationer",
+      "ai-solutions": "AI-lösningar"
     }
   },
+  "footer": {
+    "VAT-ID": "FO-nummer: 3469579-5",
+    "address": "Käpylänkatu 3, 28120 Björneborg, Finland",
+    "navigation": "NAVIGATION"
+  },
+  "contact": {
+    "headline": "Begär en offert för ditt projekt!",
+    "subheadline": "Kontakta oss och be om en offert för ditt IT-projekt så att vi kan komma igång så snart som möjligt!",
+    "submit": "Skicka",
+    "loading": "Skickar...",
+
+    "success": "Tack för ditt meddelande! Vi har tagit emot det och återkommer så snart som möjligt.",
+    "error": "Något gick fel, försök igen.",
+    "name": {
+      "label": "Ditt namn",
+      "placeholder": "John Smith"
+    },
+    "email": {
+      "label": "Din e-post",
+      "placeholder": "john.smith@email.com"
+    },
+    "phone": {
+      "label": "Telefonnummer",
+      "placeholder": "+358 40 123 4567"
+    },
+    "message": {
+      "label": "Berätta om dina mål",
+      "placeholder": "Jag vill förbättra min webbplats..."
+    }
+  },
+  "about": {
+    "headline": "Hej 👋",
+    "description": "Jag heter Jens-Mikael Stjernberg, en 18-årig ung entreprenör från Björneborg. Jag har programmerat i fyra år redan, och även om jag fortfarande går i gymnasiet bygger jag med passion webbaserade projekt på professionell nivå.\n\nJag grundade Stjernberg Web and IT Services hösten 2024 när traditionella sommarjobb inte längre inspirerade mig och jag ville anta nya utmaningar som entreprenör inom IT-världen. Sedan dess har jag slutfört många IT-projekt globalt – inte bara i Finland, utan även i USA och Tyskland.\n\nMusik och träning har alltid varit viktiga för mig. När jag inte kodar spelar jag gitarr eller piano – eller tränar så hårt att det gör ont att gå dagen efter.\n\nJag kommer från en flerspråkig entreprenörsfamilj från Norge. Hemma pratar vi tre språk: finska, svenska och norska. Dessutom pratar jag flytande engelska och har studerat i skolan tyska i fem år.\n\nSå ifall du söker passionerad och flerspråkig IT-hjälp – tveka inte att höra av dig. Låt oss förverkliga din vision!"
+  },
+  "home": {
+    "hero": {
+      "headline": "Innovativa programvara- och IT-lösningar",
+      "subheadline": "Vi utvecklar effektiva IT-lösningar som säkrar företags konkurrenskraft i en föränderlig värld.",
+      "projects": "Utforska projekt"
+    }
+  },
+  "contact-info-page": {
+    "headline": "Kontaktuppgifter",
+    "subheadline": "Kontakta oss via e-post eller fyll i kontaktformuläret så startar vi ditt projekt så snart som möjligt."
+  },
+  "projects-page": {
+    "headline": "Projekt",
+    "subheadline": "Här är några av de projekt vi har genomfört."
+  },
   "services": {
+    "headline": "Tjänster:",
     "web-pages": {
       "hero": {
-        "headline": "Moderna webbsidor för företag",
-        "subheadline": "Vi skapar professionella, kontaktorientrade och sökmotoroptimerade webbsidor som producerar kunder för företag."
+        "headline": "Moderna webbplatser för företag",
+        "subheadline": "Vi skapar professionella, skräddarsydda och sökmotoroptimerade webbplatser som genererar kunder."
+      },
+      "description": "Vi skapar professionella, skräddarsydda och sökmotoroptimerade webbplatser som genererar kunder.",
+      "title": "Företagswebbplatser",
+      "how-it-works": {
+        "headline": "Berätta om ditt företag och dina mål – vi sköter resten.",
+        "steps": {
+          "1": {
+            "headline": "Beskriv ditt företag",
+            "description": "Berätta om din verksamhet, tjänster och mål så vi får en tydlig bild av hur vi bäst bygger din webbplats."
+          },
+          "2": {
+            "headline": "Ge feedback på utkast",
+            "description": "Ge feedback och kommentarer på utkast och idéer för att undvika missförstånd och säkerställa att sajten blir precis som du vill ha den."
+          },
+          "3": {
+            "headline": "Vi bygger din sajt",
+            "description": "När vi har all nödvändig information bygger vi din webbplats och håller dig uppdaterad under hela processen."
+          }
+        }
+      },
+      "why-important": {
+        "headline": "Därför är en stark webbplats viktig",
+        "items": {
+          "1": {
+            "headline": "61%",
+            "description": "av besökare lämnar om de inte hittar det de söker inom 5 sekunder."
+          },
+          "2": {
+            "headline": "5 ms",
+            "description": "tar det för någon att bilda en första uppfattning om din webbplats."
+          },
+          "3": {
+            "headline": "38%",
+            "description": "av användare slutar engagera sig om layouten eller innehållet inte tilltalar dem."
+          },
+          "4": {
+            "headline": "97%",
+            "description": "av kunder hittar företag online, vilket gör synligheten avgörande."
+          }
+        }
+      },
+      "features": {
+        "headline": "Vi erbjuder allt din webbplats behöver:",
+        "footer": "...och allt annat du kan behöva. Kontakta oss och berätta vad du söker. \n\nObs! Om du söker efter mer tekniska tjänster, kolla [här](/).",
+        "items": {
+          "1": {
+            "headline": "Visuell design",
+            "description": "Vi bygger visuellt imponerande och användarvänliga webbplatser till ett rimligt pris, vilket hjälper dig att sticka ut från konkurrenterna och få din verksamhet att växa."
+          },
+          "2": {
+            "headline": "Search Engine Optimization (SEO)",
+            "description": "Eftersom de flesta kunder hittar företag online är SEO avgörande. Vi säkerställer maximal synlighet och sökordsoptimering för din sajt."
+          },
+          "3": {
+            "headline": "Kontaktfunktioner",
+            "description": "Vi integrerar enkla kontaktfunktioner direkt på sajten så att kunder lätt kan nå dig."
+          },
+          "4": {
+            "headline": "Kundresa",
+            "description": "Vi designar sajten så att besökare enkelt hittar den information och de tjänster de söker utan onödigt letande."
+          }
+        }
+      },
+      "formula": {
+        "headline": "Din webbplats betalar sig själv.",
+        "subheadline": "Webbplatser är en investering som effektiviserar verksamheten och genererar nya kunder.",
+        "service-price": "Tjänstekostnad",
+        "contact-price": "Genererade leads",
+        "value-price": "Webbplatsens värde"
+      }
+    },
+    "frontend-backend": {
+      "hero": {
+        "headline": "Frontend & Backend-utveckling",
+        "subheadline": "Vi erbjuder frontend och backend-utveckling för webbappar – databaser, API:er, betalsystem och andra komponenter."
+      },
+      "description": "Vi erbjuder frontend och backend-utveckling för webbappar – databaser, API:er, betalsystem och andra komponenter.",
+      "title": "Frontend & Backend-utveckling"
+    },
+    "cloud-integration": {
+      "hero": {
+        "headline": "Cloud-integrationer",
+        "long-description": "Vi hanterar allt från installation och hantering av molntjänster till integrationer. Vi har lång erfarenhet av att leverera effektiva och kostnadseffektiva lösningar.",
+        "subheadline": "Vi hanterar allt från installation och hantering av molntjänster till integrationer."
+      },
+      "long-description": "Vi hanterar allt från installation och hantering av molntjänster till integrationer."
+    },
+    "ai-solutions": {
+      "hero": {
+        "headline": "AI-lösningar",
+        "subheadline": "Vi erbjuder frontend och backend-utveckling för webbappar – databaser, API:er, betalsystem och andra komponenter."
+      },
+      "long-description": "Vi erbjuder frontend och backend-utveckling för webbappar – databaser, API:er, betalsystem och andra komponenter."
+    }
+  },
+  "projects": {
+    "headline": "Projekt:",
+    "more": "Se fler",
+    "items": {
+      "eskimo-village": {
+        "title": "Eskimovillage",
+        "description": "Vi designade och utvecklade webbapplikationens användargränssnitt, vilket förbättrade dess hastighet och användbarhet. Vi implementerade också realtidskommunikation och sökmotoroptimering för att säkerställa att tjänsten fungerar smidigt och sticker ut online."
+      },
+      "hansatorin-apteekki": {
+        "title": "Hansatorgets Apotek",
+        "description": "Vi byggde en webbplats för ett apoteket i Åbo, designade ett tydligt gränssnitt, förbättrade sökbarheten, minskade löpande kostnader och möjliggjorde enkel innehållshantering via Google Sheets."
+      },
+      "roof-history": {
+        "title": "Roof History",
+        "description": "Vi designade och implementerade skalbar serverarkitektur, säkra inloggningsfunktioner och ett förbättrat användargränssnitt. Vi förbättrade även SEO och lade till adressökning och verifiering via Google Cloud för snabb, tydlig och pålitlig prestanda."
+      }
+    }
+  },
+  "testimonials": {
+    "headline": "Kundomdömen:",
+    "items": {
+      "harri-vaelilae": {
+        "content": "Exceptionella frilansare! Väldigt skickliga och snabba utvecklare med imponerande anpassningsförmåga. De kom kontinuerligt med värdefulla förslag som gynnade våra projekt. Stark förståelse för moderna standarder och smidigt samarbete. Deras positiva och proaktiva inställning gjorde samarbetet enkelt och trevligt. Rekommenderas varmt!"
+      },
+      "dan-sveen": {
+        "content": "Jag anlitade dem nyligen för backend-utveckling och är extremt nöjd med de starka, effektiva och skalbara resultaten. Kommunikationen var smidig, de bidrog med värdefulla insikter, och jag rekommenderar deras högkvalitativa backend-tjänster starkt."
+      },
+      "hannu-valve": {
+        "content": "Att arbeta med dem var en fantastisk upplevelse – de var detaljorienterade, proaktiva i att lösa utmaningar och såg till att kommunikationen flöt på hela vägen. Deras engagemang gjorde projektet smidigt och roligt."
       }
     }
   }

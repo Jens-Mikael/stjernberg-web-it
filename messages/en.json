@@ -1,15 +1,203 @@
 {
+  "CTA": {
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "trusted-by": "Trusted by:",
+    "projects": "Explore projects",
+    "quote": "Reliable, efficient, and scalable results. Highly recommended!",
+    "quote-author": "-Dan Sveen, Roof History"
+  },
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact",
+    "services": "Services",
+    "services-nav": {
+      "web-pages": "Business Websites",
+      "frontend-backend": "Frontend & Backend Development",
+      "cloud-integration": "Cloud Integrations",
+      "ai-solutions": "AI Solutions"
+    }
+  },
+  "footer": {
+    "VAT-ID": "VAT-ID: 3469579-5",
+    "address": "Käpylänkatu 3, 28120 Pori, Finland",
+    "navigation": "NAVIGATION"
+  },
+  "contact": {
+    "headline": "Request a quote for your project!",
+    "subheadline": "Get in touch with us and request a quote for your IT project so we can get started as soon as possible!",
+    "submit": "Send",
+    "loading": "Sending...",
+    "success": "Thank you for your message! We've received it and will respond as soon as possible.",
+    "error": "Something went wrong, please try again.",
+    "name": {
+      "label": "Your name",
+      "placeholder": "John Smith"
+    },
+    "email": {
+      "label": "Your email",
+      "placeholder": "john.smith@email.com"
+    },
+    "phone": {
+      "label": "Phone number",
+      "placeholder": "+358 40 123 4567"
+    },
+    "message": {
+      "label": "Tell us your goals",
+      "placeholder": "I want to improve my website..."
+    }
+  },
+  "about": {
+    "headline": "Hey 👋",
+    "description": "I'm Jens-Mikael Stjernberg, an 18-year-old young entrepreneur from Finland. I've been programming for four years already, and although I'm still in high school, I passionately build professional-level web projects.\n\nI founded Stjernberg Web and IT Services in fall 2024, when traditional summer jobs no longer inspired me and I wanted to take on new challenges as an entrepreneur in the world of software. Since then, I’ve completed numerous IT projects globally – not only in Finland, but also in the United States and Germany.\n\nMusic and sports have always been important to me. When I’m not coding, I play the guitar or piano, or I hit the gym hard enough to make walking difficult the next day.\n\nI come from a multilingual entrepreneurial family from Norway. At home, we speak three languages: Finnish, Swedish, and Norwegian. In addition, I speak fluent English and have studied German in school for five years.\n\nSo, if you're looking for passionate and multilingual IT help, don’t hesitate to get in touch – let’s make your vision a reality!"
+  },
   "home": {
     "hero": {
       "headline": "Innovative software and IT solutions",
-      "subheadline": "We strive to develop effective IT solutions, which ensures companies' competitiveness in a changing world."
+      "subheadline": "We strive to develop effective IT solutions, which ensures companies' competitiveness in a changing world.",
+      "projects": "Explore projects"
     }
   },
+  "contact-info-page": {
+    "headline": "Contact Information",
+    "subheadline": "Get in touch with us by email or fill out the contact form, and we’ll get started on your project as soon as possible."
+  },
+  "projects-page": {
+    "headline": "Projects",
+    "subheadline": "Here are some of the projects we've completed."
+  },
   "services": {
+    "headline": "Services:",
     "web-pages": {
       "hero": {
-        "headline": "Modern web pages for businesses",
-        "subheadline": "We create professional, contact-oriented and search engine-optimized websites that produce customers."
+        "headline": "Modern websites for businesses",
+        "subheadline": "We create professional, tailored, and search engine-optimized websites that generate customers."
+      },
+      "description": "We create professional, tailored, and search engine-optimized websites that generate customers.",
+      "title": "Business Websites",
+      "how-it-works": {
+        "headline": "Tell us about your business and goals—we'll handle the rest.",
+        "steps": {
+          "1": {
+            "headline": "Describe your business",
+            "description": "Tell us about your company, its services, and its goals so we can get a clear picture of how to best build your website."
+          },
+          "2": {
+            "headline": "Give feedback on drafts",
+            "description": "Provide feedback and comments on drafts and ideas to avoid misunderstandings and ensure the site is exactly what you want."
+          },
+          "3": {
+            "headline": "We build your site",
+            "description": "Once we have all the necessary information, we build your site and keep you updated throughout the process."
+          }
+        }
+      },
+      "why-important": {
+        "headline": "Why having a solid site is essential",
+        "items": {
+          "1": {
+            "headline": "61%",
+            "description": "of visitors leave if they can't find what they're looking for within 5 seconds."
+          },
+          "2": {
+            "headline": "5 ms",
+            "description": "is how long it takes for someone to form an opinion about your website."
+          },
+          "3": {
+            "headline": "38%",
+            "description": "of users stop engaging if the layout or content isn't appealing."
+          },
+          "4": {
+            "headline": "97%",
+            "description": "of customers find businesses online, which makes visibility crucial."
+          }
+        }
+      },
+      "features": {
+        "headline": "We provide everything your website needs:",
+        "footer": "...and anything else you might need. Contact us and let us know what you’re looking for. \n\nNote! If you're looking for more technical services, check [here](/).",
+        "items": {
+          "1": {
+            "headline": "Visual Design",
+            "description": "We build visually impressive and user-friendly websites at a reasonable price, helping you stand out from the competition and grow your business."
+          },
+          "2": {
+            "headline": "Search Engine Optimization (SEO)",
+            "description": "Since most customers find companies online, SEO is critical. We ensure maximum visibility and keyword optimization for your site."
+          },
+          "3": {
+            "headline": "Contact Functionality",
+            "description": "We integrate easy-to-use contact options directly on the site so customers can reach out effortlessly."
+          },
+          "4": {
+            "headline": "Customer Journey",
+            "description": "We design the site so that visitors can easily find the information and services they need without unnecessary searching."
+          }
+        }
+      },
+      "formula": {
+        "headline": "Your site will pay for itself.",
+        "subheadline": "Websites are an investment that streamline business and customer acquisition.",
+        "service-price": "Service cost",
+        "contact-price": "Leads generated",
+        "value-price": "Website value"
+      }
+    },
+    "frontend-backend": {
+      "hero": {
+        "headline": "Frontend & Backend Development",
+        "subheadline": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
+      },
+      "description": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components.",
+      "title": "Frontend & Backend Development"
+    },
+    "cloud-integration": {
+      "hero": {
+        "headline": "Cloud Integrations",
+        "long-description": "We handle everything from cloud service setup and management to integrations. We have years of experience delivering efficient and cost-effective solutions.",
+        "subheadline": "We handle everything from cloud service setup and management to integrations."
+      },
+      "long-description": "We handle everything from cloud service setup and management to integrations."
+    },
+    "ai-solutions": {
+      "hero": {
+        "headline": "AI Solutions",
+        "subheadline": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
+      },
+      "long-description": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
+    }
+  },
+  "projects": {
+    "headline": "Projects:",
+    "more": "See more",
+    "items": {
+      "eskimo-village": {
+        "title": "Eskimovillage",
+        "description": "We designed and developed the web app UI, improving speed and usability. We also implemented real-time messaging and SEO for smooth and visible performance online."
+      },
+      "hansatorin-apteekki": {
+        "title": "Hansatori Pharmacy",
+        "description": "We built a website for the pharmacy in Turku from the ground up, designed a clear interface, improved search (SEO) visibility, reduced ongoing costs, and enabled easy content management via Google Sheets."
+      },
+      "roof-history": {
+        "title": "Roof History",
+        "description": "We designed and implemented scalable server architecture, secure login features, and a better user interface. We also enhanced SEO and added address search and verification via Google Cloud (GCS) for fast, clear, and reliable performance."
+      }
+    }
+  },
+  "testimonials": {
+    "headline": "Client Feedback:",
+    "items": {
+      "harri-vaelilae": {
+        "content": "Exceptional freelance services! Very skilled and quick developers, with impressive learning and adaptability. They consistently offered valuable suggestions that benefited our projects. Strong understanding of modern standards and seamless collaboration. Their cheerful, proactive, and smart approach made working together easy and enjoyable. Highly recommended!"
+      },
+      "dan-sveen": {
+        "content": "I recently hired them to develop the backend of my website, and I couldn’t be happier with the strong, efficient, and scalable results. Communication was seamless, they provided valuable insights, and I highly recommend their high-quality backend services."
+      },
+      "hannu-valve": {
+        "content": "Working with them was a great experience – they were detail-oriented, proactive in solving challenges, and ensured smooth communication throughout. Their dedication made the whole project seamless and enjoyable."
       }
     }
   }

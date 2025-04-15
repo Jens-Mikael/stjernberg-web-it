@@ -1,54 +1,57 @@
 "use client";
-import Link from "next/link";
-import ButtonFilled from "../buttons/ButtonFilled";
+import { Link, usePathname } from "@/i18n/navigation";
 import { useEffect, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import ButtonOutline from "../buttons/ButtonOutline";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
-import { usePathname } from "next/navigation";
+//import { usePathname } from "next/navigation";
 import Image from "next/image";
-import { useLocale } from "next-intl";
-
-const navs = [
-  {
-    label: "Koti",
-    href: "/",
-  },
-  {
-    label: "Palvelut",
-    href: "/services",
-  },
-  {
-    label: "Projektit",
-    href: "/projektit",
-  },
-  {
-    label: "Yhteystiedot",
-    href: "/contact",
-  },
-];
+import { useLocale, useTranslations } from "next-intl";
+import ButtonCTA from "../buttons/ButtonCTA";
 
 const languages = [
   {
     label: "Suomeksi",
-    href: "/fi",
+    href: "fi",
     image: "fi.png",
   },
   {
     label: "På Svenska",
-    href: "/sv",
+    href: "sv",
     image: "sv.png",
   },
   {
     label: "In English",
-    href: "/en",
+    href: "en",
     image: "en.png",
   },
+];
+
+const services = [
+  {
+    key: "web-pages",
+    href: "/web-pages",
+  },
+  // {
+  //   key: "frontend-backend",
+  //   href: "/software-development",
+  // },
+  // {
+  //   key: "cloud-integration",
+  //   href: "/cloud-integration",
+  // },
+  // {
+  //   key: "ai-solutions",
+  //   href: "/ai-solutions",
+  // },
 ];
 
 export default function Navbar() {
   const [isAtTop, setIsAtTop] = useState(true);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const t = useTranslations("navbar");
+  const heroOther = useTranslations("hero");
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -107,18 +110,34 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-10">
-            {navs.map((nav) => (
-              <Link
-                key={nav.label}
-                href={nav.href}
-                className="hover:underline cursor-pointer font-medium"
-              >
-                {nav.label}
-              </Link>
-            ))}
+            <Link
+              href="/"
+              className={`hover:underline cursor-pointer font-medium ${
+                pathname === "/" ? "underline" : ""
+              }`}
+            >
+              {t("home")}
+            </Link>
+            <ServicesNav />
+            <Link
+              href="/projects"
+              className={`hover:underline cursor-pointer font-medium ${
+                pathname === "/projects" ? "underline" : ""
+              }`}
+            >
+              {t("projects")}
+            </Link>
+            <Link
+              href="/contact"
+              className={`hover:underline cursor-pointer font-medium ${
+                pathname === "/contact" ? "underline" : ""
+              }`}
+            >
+              {t("contact")}
+            </Link>
 
-            <LanguageButton />
-            <ButtonFilled>Ota yhteyttä</ButtonFilled>
+            <LanguageNav />
+            <ButtonCTA />
           </div>
 
           {/* Mobile Hamburger Button */}
@@ -146,24 +165,37 @@ export default function Navbar() {
             <X size={24} className="text-content-dark" />
           </button>
           <div className="flex flex-col gap-6">
-            {navs.map((nav) => (
-              <Link
-                key={nav.label}
-                href={nav.href}
-                className=" hover:text-main transition-colors text-lg font-medium"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {nav.label}
-              </Link>
-            ))}
-
+            <Link
+              href="/"
+              className=" hover:text-main transition-colors text-lg font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Koti
+            </Link>
+            <ServicesNav />
+            <Link
+              href="/projects"
+              className=" hover:text-main transition-colors text-lg font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Projektit
+            </Link>
+            <Link
+              href="/contact"
+              className=" hover:text-main transition-colors text-lg font-medium"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Yhteystiedot
+            </Link>
             <div className="flex flex-col gap-2">
-              <ButtonFilled>Ota Yhteyttä</ButtonFilled>
-              <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10">
-                Tutustu töihin
-              </ButtonOutline>
+              <ButtonCTA className="w-full" />{" "}
+              <Link href="/projects">
+                <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10">
+                  {heroOther("projects")}
+                </ButtonOutline>
+              </Link>
             </div>
-            <LanguageButton />
+            <LanguageNav />
           </div>
         </div>
       </div>
@@ -179,7 +211,7 @@ export default function Navbar() {
   );
 }
 
-const LanguageButton = () => {
+const LanguageNav = () => {
   const locale = useLocale();
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
@@ -195,16 +227,15 @@ const LanguageButton = () => {
           />
         </div>
         <ChevronDown
-          className={`transition-transform ${
-            isOpen ? "rotate-180" : ""
-          }`}
+          className={`transition-transform ${isOpen ? "rotate-180" : ""}`}
         />
       </PopoverTrigger>
       <PopoverContent className="flex flex-col gap-2 p-1 w-fit">
         {languages.map((language) => (
           <Link
             key={language.label}
-            href={pathname.replace(/^\/[a-z]{2}/, language.href)}
+            href={pathname}
+            locale={language.href}
             className="flex items-center gap-2 hover:bg-gray-100/50 rounded-md py-2 px-3"
             onClick={() => setIsOpen(false)}
           >
@@ -217,6 +248,42 @@ const LanguageButton = () => {
               />
             </div>
             {language.label}
+          </Link>
+        ))}
+      </PopoverContent>
+    </Popover>
+  );
+};
+
+const ServicesNav = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const t = useTranslations("navbar");
+  const pathname = usePathname();
+  return (
+    <Popover open={isOpen} onOpenChange={setIsOpen}>
+      <PopoverTrigger className="cursor-pointer flex items-center gap-2">
+        <p
+          className={`text-lg lg:text-base font-medium hover:text-main md:hover:text-white  transition-colors ${
+            pathname.includes("/services") ? "underline" : ""
+          }`}
+        >
+          {t("services")}
+        </p>
+        <ChevronDown
+          className={`transition-transform ${isOpen ? "rotate-180" : ""}`}
+        />
+      </PopoverTrigger>
+      <PopoverContent className="flex flex-col gap-2 p-1 w-fit">
+        {services.map((service) => (
+          <Link
+            key={service.key}
+            href={`/services/${service.href}`}
+            className={`flex items-center gap-2 hover:bg-gray-100/50 rounded-md py-2 px-3 ${
+              pathname.includes(service.href) ? "underline" : ""
+            }`}
+            onClick={() => setIsOpen(false)}
+          >
+            {t(`services-nav.${service.key}`)}
           </Link>
         ))}
       </PopoverContent>
