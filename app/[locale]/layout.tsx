@@ -6,6 +6,8 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Providers from "../Providers";
+import { Analytics } from "@vercel/analytics/react"
+
 
 const gabarito = Gabarito({
   variable: "--font-gabarito",
@@ -73,6 +75,7 @@ export default async function RootLayout({ children, params }: IProps) {
           <NextIntlClientProvider>
             <Navbar />
             {children}
+            <Analytics />
           </NextIntlClientProvider>
         </Providers>
       </body>
