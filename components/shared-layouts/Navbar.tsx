@@ -170,7 +170,7 @@ export default function Navbar() {
               className=" hover:text-main transition-colors text-lg font-medium"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Koti
+              {t("home")}
             </Link>
             <ServicesNav />
             <Link
@@ -178,19 +178,26 @@ export default function Navbar() {
               className=" hover:text-main transition-colors text-lg font-medium"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Projektit
+              {t("projects")}
             </Link>
             <Link
               href="/contact"
               className=" hover:text-main transition-colors text-lg font-medium"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Yhteystiedot
+              {t("contact")}
             </Link>
             <div className="flex flex-col gap-2">
-              <ButtonCTA className="w-full" />{" "}
-              <Link href="/projects">
-                <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10">
+              <ButtonCTA
+                className="w-full"
+                onClick={() => setIsMobileMenuOpen(false)}
+              />{" "}
+              <Link
+                href="/projects"
+                className="w-full"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <ButtonOutline className="border-gray-400 text-gray-400 hover:bg-gray-400/10 w-full">
                   {heroOther("projects")}
                 </ButtonOutline>
               </Link>
