@@ -7,18 +7,18 @@ import { getLocale } from "next-intl/server";
 
 const dynamicMetadata = {
   en: {
-    title: "Our IT Projects | Web & Cloud Solutions | Stjernberg Web​",
+    title: "Our IT Projects | Web & Cloud Solutions | Stjernberg Web and IT Services​",
     description:
       "Explore our portfolio of successful IT projects, including web applications and cloud integrations.​​​",
   },
   sv: {
-    title: "Våra IT-projekt | Webb- & molnlösningar | Stjernberg Web​",
+    title: "Våra IT-projekt | Webb- & molnlösningar | Stjernberg Web and IT Services​",
     description:
       "Utforska vår portfölj av framgångsrika IT-projekt, inklusive webbapplikationer och molnintegrationer.​​",
   },
   fi: {
     title:
-      "IT-projektimme | Verkkosovellukset ja pilviratkaisut | Stjernberg Web​",
+      "IT-projektimme | Verkkosovellukset ja pilviratkaisut | Stjernberg Web and IT Services​",
     description:
       "Tutustu onnistuneisiin IT-projekteihimme, mukaan lukien verkkosovellukset ja pilvi-integraatiot.​​​​",
   },

@@ -32,10 +32,10 @@ const services = [
     key: "web-pages",
     href: "/web-pages",
   },
-  // {
-  //   key: "frontend-backend",
-  //   href: "/software-development",
-  // },
+  {
+    key: "software-development",
+    href: "/software-development",
+  },
   // {
   //   key: "cloud-integration",
   //   href: "/cloud-integration",

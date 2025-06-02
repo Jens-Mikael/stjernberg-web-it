@@ -15,7 +15,7 @@
     "services": "Services",
     "services-nav": {
       "web-pages": "Business Websites",
-      "frontend-backend": "Frontend & Backend Development",
+      "software-development": "Custom Software Development",
       "cloud-integration": "Cloud Integrations",
       "ai-solutions": "AI Solutions"
     }
@@ -117,7 +117,7 @@
       },
       "features": {
         "headline": "We provide everything your website needs:",
-        "footer": "...and anything else you might need. Contact us and let us know what you’re looking for. \n\nNote! If you're looking for more technical services, check [here](/).",
+        "footer": "...and anything else you might need. Contact us and let us know what you’re looking for. \n\nNote! If you're looking for more technical services, check [here](/services/software-development).",
         "items": {
           "1": {
             "headline": "Visual Design",
@@ -145,13 +145,79 @@
         "value-price": "Website value"
       }
     },
-    "frontend-backend": {
+    "software-development": {
       "hero": {
-        "headline": "Frontend & Backend Development",
-        "subheadline": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
+        "headline": "Custom Software Development",
+        "subheadline": "We provide custom software development services to ensure high user experience, performance and security."
       },
       "description": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components.",
-      "title": "Frontend & Backend Development"
+      "title": "Frontend & Backend Development",
+      "what-we-offer": {
+        "headline": "What We Offer:",
+        "items": {
+          "0": {
+            "headline": "Frontend development",
+            "description": "With traditional frontend development, we follow industry proven best practices to develop high performing web interfaces with UI/UX as our #1 priority.",
+            "features": "Key features:",
+            "feature-items": {
+              "0": "Responsive desgin",
+              "1": "UI/UX implementation",
+              "2": "Cross-Browser Compatibility",
+              "3": "Performance Optimization",
+              "4": "API integration",
+              "5": "Version control & deployment"
+            }
+          },
+          "1": {
+            "headline": "Backend Development",
+            "description": "We design robust and secure backend systems tailored to your business needs. Our solutions ensure performance, scalability, and data integrity, providing the backbone for your application to thrive.",
+            "features": "Key features:",
+            "feature-items": {
+              "0": "API Development",
+              "1": "Database Design & Management",
+              "2": "Authentication & Authorization",
+              "3": "Payment Logic Implementation",
+              "4": "Third-Party Integrations",
+              "5": "Security Best Practices"
+            }
+          },
+          "2": {
+            "headline": "DevOps & Cloud",
+            "description": "Our DevOps and cloud services help you build scalable, cloud-ready infrastructures. We optimize deployment pipelines and ensure your systems run smoothly, reliably, and securely at scale.",
+            "features": "Key features:",
+            "feature-items": {
+              "0": "Scalability & Performance Optimization",
+              "1": "Deployment & Hosting",
+              "2": "Monitoring & Logging",
+              "3": "Continuous Integration",
+              "4": "Deployment (CI/CD)",
+              "5": "Cloud Infrastructure Planning",
+              "6": "Security Best Practices"
+            }
+          }
+        }
+      },
+      "why-work": {
+        "headline": "Why work with us?",
+        "reasons": {
+          "0": {
+            "headline": "+3 Years of Experience",
+            "description": "We have over 3 years of experience in software development with continious passion for learning and solving new challenges"
+          },
+          "1": {
+            "headline": "+5 Happy Clients",
+            "description": "We have worked with several clients in the past, and many of them have been satisfied returned for with more projects."
+          },
+          "2": {
+            "headline": "Diverse expertise",
+            "description": "Beyond the world of technology, we bring expertise in advanced AI solutions, business strategy, marketing, and exceptional communication across five languages."
+          },
+          "3": {
+            "headline": "+10 industry level projects",
+            "description": "With over 10 industry-grade projects under our belt, we’ve built everything from simple business home pages to complex AI-powered solutions."
+          }
+        }
+      }
     },
     "cloud-integration": {
       "hero": {

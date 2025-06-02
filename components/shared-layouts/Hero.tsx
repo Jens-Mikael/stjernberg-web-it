@@ -36,7 +36,7 @@ export default function Hero({ page }: { page: string }) {
             <QuoteIcon className="w-10 h-10" />
             <div className="flex flex-col">
               <p className="italic lg:text-lg">{heroOther("quote")}</p>
-              <p className="lg:text-base text-sm">
+              <p className="sm:text-sm text-xs">
                 {heroOther("quote-author")}
               </p>
             </div>
