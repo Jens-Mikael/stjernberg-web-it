@@ -15,19 +15,19 @@ const gabarito = Gabarito({
 
 const dynamicMetadata = {
   en: {
-    title: "Innovative Software & IT Solutions | Stjernberg Web​",
+    title: "Stjernberg Web and IT Services​",
     description:
-      "We develop efficient, scalable IT solutions to help businesses stay competitive in a changing world.",
+      "Efficient, scalable and reliable IT solutions to help businesses stay competitive in a changing world.",
   },
   sv: {
-    title: "Innovativa programvaru- & IT-lösningar | Stjernberg Web",
+    title: "Stjernberg Web and IT Services​",
     description:
-      "Vi utvecklar effektiva, skalbara IT-lösningar som hjälper företag att förbli konkurrenskraftiga i en föränderlig värld.​",
+      "Effektiva, skalbara och pålitliga IT-lösningar som hjälper företag att förbli konkurrenskraftiga i en föränderlig värld.​",
   },
   fi: {
-    title: "Innovatiiviset ohjelmisto- ja IT-ratkaisut | Stjernberg Web​",
+    title: "Stjernberg Web and IT Services​",
     description:
-      "Kehitämme tehokkaita, skaalautuvia IT-ratkaisuja, jotka auttavat yrityksiä pysymään kilpailukykyisinä muuttuvassa maailmassa.​",
+      "Tehokkaita, skaalautuvia ja luotettavia IT-ratkaisuja, jotka auttavat yrityksiä pysymään kilpailukykyisinä muuttuvassa maailmassa.​",
   },
 };
 
