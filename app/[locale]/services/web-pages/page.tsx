@@ -4,17 +4,17 @@ import { getLocale } from "next-intl/server";
 
 const dynamicMetadata = {
   en: {
-    title: "Custom Company Websites | Stjernberg Web​",
+    title: "Custom Company Websites | Stjernberg Web and IT Services​",
     description:
       "Professional, tailored, and SEO-optimized websites designed to generate leads and grow your business.​",
   },
   sv: {
-    title: "Snygga hemsidor för företag | Stjernberg Web",
+    title: "Snygga hemsidor för företag | Stjernberg Web and IT Services​",
     description:
       "Professionella, anpassade och SEO-optimerade webbplatser utformade för att generera leads och växa ditt företag.​​",
   },
   fi: {
-    title: "Modernit verkkosivut yrityksille | Stjernberg Web",
+    title: "Modernit verkkosivut yrityksille | Stjernberg Web and IT Services​",
     description:
       "Ammattimaiset, modernit ja SEO-optimoidut verkkosivut, jotka tuovat asiakkaita ja kasvattavat liiketoimintaasi.​​",
   },
