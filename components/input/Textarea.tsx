@@ -39,7 +39,7 @@ export default function Textarea({
 
       <textarea
         className={cn(
-          "w-full rounded-md  bg-gray-100 text-content-dark px-3 py-2",
+          "w-full rounded-md  bg-gray-100 text-content-dark px-3 py-2 placeholder-gray-400",
           "focus:ring-main focus:border-main focus:ring-1 focus:outline-none",
           "overflow-hidden",
           className

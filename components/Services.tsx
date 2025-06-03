@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/navigation";
-import { Globe } from "lucide-react";
+import { Code, Globe } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
@@ -21,12 +21,12 @@ export default function Services() {
               image: "/services/web-pages.jpg",
               href: "/services/web-pages",
             },
-            // {
-            //   key: "frontend-backend",
-            //   icon: Code,
-            //   image: "/services/frontend-backend.jpeg",
-            //   href: "/services/frontend-backend",
-            // },
+            {
+              key: "software-development",
+              icon: Code,
+              image: "/services/software-development.jpeg",
+              href: "/services/software-development",
+            },
             // {
             //   title: "Kotisivut yritykselle",
             //   description: "Palvelut",

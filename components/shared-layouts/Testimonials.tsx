@@ -21,6 +21,12 @@ const testimonials = [
     image: "/customers/hannu.webp",
     key: "hannu-valve",
   },
+  {
+    name: "Livio von Planta",
+    company: "EduCollect",
+    image: "/customers/livio.webp",
+    key: "livio",
+  },
 ]
 
 export default function Testimonials() {

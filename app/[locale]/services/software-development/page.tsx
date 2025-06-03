@@ -1,13 +1,22 @@
 import SoftwareDevelopmentService from "@/components/pages/services/software-development";
-import WebPagesService from "@/components/pages/services/web-pages";
 import { Metadata } from "next";
 import { getLocale } from "next-intl/server";
 
 const dynamicMetadata = {
   en: {
-    title: "Custom Software Development | Stjernberg Web and IT Services​",
+    title: "Software Development | Stjernberg Web and IT Services​",
     description:
       "High quality software development services to ensure high user experience, performance and security.​",
+  },
+  fi: {
+    title: "Ohjelmistokehitys | Stjernberg Web and IT Services​",
+    description:
+      "Korkealaatuiset ohjelmistokehityspalvelut, jotka takaavat erinomaisen käyttökokemuksen, suorituskyvyn ja turvallisuuden​",
+  },
+  sv: {
+    title: "Programvaruutveckling | Stjernberg Web and IT Services​",
+    description:
+      "Högkvalitativa programvaruutvecklingstjänster för att säkerställa hög användarupplevelse, prestanda och säkerhet",
   },
 };
 

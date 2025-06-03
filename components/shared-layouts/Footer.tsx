@@ -64,7 +64,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-1">
             {[
               "web-pages",
-              // "frontend-backend",
+              "software-development",
               // "cloud-integration",
               // "ai-solutions",
             ].map((service) => (

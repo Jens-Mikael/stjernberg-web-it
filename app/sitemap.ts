@@ -17,11 +17,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: "/projects",
-      priority: 0.8,
+      priority: 0.6,
     },
     {
       url: "/contact",
-      priority: 0.8,
+      priority: 0.6,
     },
   ];
 

@@ -15,7 +15,7 @@
     "services": "Services",
     "services-nav": {
       "web-pages": "Business Websites",
-      "software-development": "Custom Software Development",
+      "software-development": "Software Development",
       "cloud-integration": "Cloud Integrations",
       "ai-solutions": "AI Solutions"
     }
@@ -69,7 +69,7 @@
     "subheadline": "Here are some of the projects we've completed."
   },
   "services": {
-    "headline": "Services:",
+    "headline": "Our services:",
     "web-pages": {
       "hero": {
         "headline": "Modern websites for businesses",
@@ -147,13 +147,14 @@
     },
     "software-development": {
       "hero": {
-        "headline": "Custom Software Development",
+        "headline": "Software Development",
         "subheadline": "We provide custom software development services to ensure high user experience, performance and security."
       },
       "description": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components.",
       "title": "Frontend & Backend Development",
       "what-we-offer": {
         "headline": "What We Offer:",
+        "tools": "Tools:",
         "items": {
           "0": {
             "headline": "Frontend development",
@@ -196,27 +197,6 @@
             }
           }
         }
-      },
-      "why-work": {
-        "headline": "Why work with us?",
-        "reasons": {
-          "0": {
-            "headline": "+3 Years of Experience",
-            "description": "We have over 3 years of experience in software development with continious passion for learning and solving new challenges"
-          },
-          "1": {
-            "headline": "+5 Happy Clients",
-            "description": "We have worked with several clients in the past, and many of them have been satisfied returned for with more projects."
-          },
-          "2": {
-            "headline": "Diverse expertise",
-            "description": "Beyond the world of technology, we bring expertise in advanced AI solutions, business strategy, marketing, and exceptional communication across five languages."
-          },
-          "3": {
-            "headline": "+10 industry level projects",
-            "description": "With over 10 industry-grade projects under our belt, we’ve built everything from simple business home pages to complex AI-powered solutions."
-          }
-        }
       }
     },
     "cloud-integration": {
@@ -233,6 +213,48 @@
         "subheadline": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
       },
       "long-description": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
+    }
+  },
+  "why-work": {
+    "headline": "Why work with us?",
+    "reasons": {
+      "0": {
+        "headline": "+3 Years of Experience",
+        "description": "We have over 3 years of experience in software development with continious passion for learning and solving new challenges"
+      },
+      "1": {
+        "headline": "+5 Happy Clients",
+        "description": "We have worked with several clients in the past, and many of them have been satisfied returned for with more projects."
+      },
+      "2": {
+        "headline": "Diverse expertise",
+        "description": "Beyond the world of technology, we bring expertise in advanced AI solutions, business strategy, marketing, and exceptional communication across five languages."
+      },
+      "3": {
+        "headline": "+10 industry level projects",
+        "description": "With over 10 industry-grade projects under our belt, we’ve built everything from simple business home pages to complex AI-powered solutions."
+      }
+    }
+  },
+  "success-stories": {
+    "headline": "Our Success Stories:",
+    "result": "Results: ",
+    "items": {
+      "0": {
+        "title": "Website optimization",
+        "description": "Redesigned and improved a business' website making the UI more appealing and performant.",
+        "result": "Brought down running costs by 100% and increased traffic with enhanced SEO."
+      },
+      "1": {
+        "title": "Architectural simplification",
+        "description": "Refactored a previously flawed architecture in a real-time chat system by eliminating unnecessary dependencies and resolving performance bottlenecks.",
+        "result": "Decreased downtime by 99% and performance by 10x due to enhanced memory management."
+      },
+      "2": {
+        "title": "Fullstack Web Development Excellence",
+        "description": "Independently designed, developed, and delivered a fullstack website, ensuring quality through close client collaboration and effective communication.",
+        "result": "Delivered exactly what the client wanted, with no technical knowledge required on their part."
+      }
     }
   },
   "projects": {
@@ -257,13 +279,16 @@
     "headline": "Client Feedback:",
     "items": {
       "harri-vaelilae": {
-        "content": "Exceptional freelance services! Very skilled and quick developers, with impressive learning and adaptability. They consistently offered valuable suggestions that benefited our projects. Strong understanding of modern standards and seamless collaboration. Their cheerful, proactive, and smart approach made working together easy and enjoyable. Highly recommended!"
+        "content": "Exceptional freelance services! Jens is a Very skilled and quick developer, with impressive learning and adaptability. They consistently offered valuable suggestions that benefited our projects. Strong understanding of modern standards and seamless collaboration. Their cheerful, proactive, and smart approach made working together easy and enjoyable. Highly recommended!"
       },
       "dan-sveen": {
-        "content": "I recently hired them to develop the backend of my website, and I couldn’t be happier with the strong, efficient, and scalable results. Communication was seamless, they provided valuable insights, and I highly recommend their high-quality backend services."
+        "content": "I recently hired Jens to develop the backend of my website, and I couldn’t be happier with the strong, efficient, and scalable results. Communication was seamless, they provided valuable insights, and I highly recommend their high-quality backend services."
       },
       "hannu-valve": {
-        "content": "Working with them was a great experience – they were detail-oriented, proactive in solving challenges, and ensured smooth communication throughout. Their dedication made the whole project seamless and enjoyable."
+        "content": "Working with Jens was a great experience – they were detail-oriented, proactive in solving challenges, and ensured smooth communication throughout. Their dedication made the whole project seamless and enjoyable."
+      },
+      "livio": {
+        "content": "Jens is a really competent developer. He‘s got a lot of experience in making beautiful websites or UIs. Communication was never a problem he always responded as quickly as possible (sometimes he‘s a bit busy). I will definitly come back for any to-be-established website projects. I can highly recommend."
       }
     }
   }
