@@ -5,17 +5,17 @@ import { getLocale } from "next-intl/server";
 
 const dynamicMetadata = {
   en: {
-    title: "Contact Us | Get a Quote for Your IT Project | Stjernberg Web​",
+    title: "Contact Us | Get a Quote for Your IT Project | Stjernberg Web and IT Services​",
     description:
       "Reach out today to discuss your IT project and receive a tailored quote. Let's bring your vision to life.​​",
   },
   sv: {
-    title: "Kontakta oss | Få en offert för ditt IT-projekt | Stjernberg Web​",
+    title: "Kontakta oss | Få en offert för ditt IT-projekt | Stjernberg Web and IT Services​",
     description:
       "Hör av dig idag för att diskutera ditt IT-projekt och få en skräddarsydd offert. Låt oss förverkliga din vision.​",
   },
   fi: {
-    title: "Ota yhteyttä | Pyydä tarjous IT-projektillesi | Stjernberg Web​",
+    title: "Ota yhteyttä | Pyydä tarjous IT-projektillesi | Stjernberg Web and IT Services​",
     description:
       "Ota yhteyttä tänään keskustellaksesi IT-projektistasi ja saadaksesi räätälöidyn tarjouksen. Toteutetaan visiosi yhdessä.​​​",
   },

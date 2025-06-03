@@ -15,7 +15,7 @@
     "services": "Services",
     "services-nav": {
       "web-pages": "Business Websites",
-      "frontend-backend": "Frontend & Backend Development",
+      "software-development": "Software Development",
       "cloud-integration": "Cloud Integrations",
       "ai-solutions": "AI Solutions"
     }
@@ -69,7 +69,7 @@
     "subheadline": "Here are some of the projects we've completed."
   },
   "services": {
-    "headline": "Services:",
+    "headline": "Our services:",
     "web-pages": {
       "hero": {
         "headline": "Modern websites for businesses",
@@ -117,7 +117,7 @@
       },
       "features": {
         "headline": "We provide everything your website needs:",
-        "footer": "...and anything else you might need. Contact us and let us know what you’re looking for. \n\nNote! If you're looking for more technical services, check [here](/).",
+        "footer": "...and anything else you might need. Contact us and let us know what you’re looking for. \n\nNote! If you're looking for more technical services, check [here](/services/software-development).",
         "items": {
           "1": {
             "headline": "Visual Design",
@@ -145,13 +145,59 @@
         "value-price": "Website value"
       }
     },
-    "frontend-backend": {
+    "software-development": {
       "hero": {
-        "headline": "Frontend & Backend Development",
-        "subheadline": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
+        "headline": "Software Development",
+        "subheadline": "We provide custom software development services to ensure high user experience, performance and security."
       },
       "description": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components.",
-      "title": "Frontend & Backend Development"
+      "title": "Frontend & Backend Development",
+      "what-we-offer": {
+        "headline": "What We Offer:",
+        "tools": "Tools:",
+        "items": {
+          "0": {
+            "headline": "Frontend development",
+            "description": "With traditional frontend development, we follow industry proven best practices to develop high performing web interfaces with UI/UX as our #1 priority.",
+            "features": "Key features:",
+            "feature-items": {
+              "0": "Responsive desgin",
+              "1": "UI/UX implementation",
+              "2": "Cross-Browser Compatibility",
+              "3": "Performance Optimization",
+              "4": "API integration",
+              "5": "Version control & deployment"
+            }
+          },
+          "1": {
+            "headline": "Backend Development",
+            "description": "We design robust and secure backend systems tailored to your business needs. Our solutions ensure performance, scalability, and data integrity, providing the backbone for your application to thrive.",
+            "features": "Key features:",
+            "feature-items": {
+              "0": "API Development",
+              "1": "Database Design & Management",
+              "2": "Authentication & Authorization",
+              "3": "Payment Logic Implementation",
+              "4": "Third-Party Integrations",
+              "5": "Security Best Practices"
+            }
+          },
+          "2": {
+            "headline": "DevOps & Cloud",
+            "description": "Our DevOps and cloud services help you build scalable, cloud-ready infrastructures. We optimize deployment pipelines and ensure your systems run smoothly, reliably, and securely at scale.",
+            "features": "Key features:",
+            "feature-items": {
+              "0": "Scalability & Performance Optimization",
+              "1": "Deployment & Hosting",
+              "2": "Monitoring & Logging",
+              "3": "Continuous Integration",
+              "4": "Deployment (CI/CD)",
+              "5": "Cloud Infrastructure Planning",
+              "6": "Security Best Practices"
+            }
+          }
+        }
+      }
     },
     "cloud-integration": {
       "hero": {
@@ -167,6 +213,48 @@
         "subheadline": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
       },
       "long-description": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components."
+    }
+  },
+  "why-work": {
+    "headline": "Why work with us?",
+    "reasons": {
+      "0": {
+        "headline": "+3 Years of Experience",
+        "description": "We have over 3 years of experience in software development with continious passion for learning and solving new challenges"
+      },
+      "1": {
+        "headline": "+5 Happy Clients",
+        "description": "We have worked with several clients in the past, and many of them have been satisfied returned for with more projects."
+      },
+      "2": {
+        "headline": "Diverse expertise",
+        "description": "Beyond the world of technology, we bring expertise in advanced AI solutions, business strategy, marketing, and exceptional communication across five languages."
+      },
+      "3": {
+        "headline": "+10 industry level projects",
+        "description": "With over 10 industry-grade projects under our belt, we’ve built everything from simple business home pages to complex AI-powered solutions."
+      }
+    }
+  },
+  "success-stories": {
+    "headline": "Our Success Stories:",
+    "result": "Results: ",
+    "items": {
+      "0": {
+        "title": "Website optimization",
+        "description": "Redesigned and improved a business' website making the UI more appealing and performant.",
+        "result": "Brought down running costs by 100% and increased traffic with enhanced SEO."
+      },
+      "1": {
+        "title": "Architectural simplification",
+        "description": "Refactored a previously flawed architecture in a real-time chat system by eliminating unnecessary dependencies and resolving performance bottlenecks.",
+        "result": "Decreased downtime by 99% and performance by 10x due to enhanced memory management."
+      },
+      "2": {
+        "title": "Fullstack Web Development Excellence",
+        "description": "Independently designed, developed, and delivered a fullstack website, ensuring quality through close client collaboration and effective communication.",
+        "result": "Delivered exactly what the client wanted, with no technical knowledge required on their part."
+      }
     }
   },
   "projects": {
@@ -191,13 +279,16 @@
     "headline": "Client Feedback:",
     "items": {
       "harri-vaelilae": {
-        "content": "Exceptional freelance services! Very skilled and quick developers, with impressive learning and adaptability. They consistently offered valuable suggestions that benefited our projects. Strong understanding of modern standards and seamless collaboration. Their cheerful, proactive, and smart approach made working together easy and enjoyable. Highly recommended!"
+        "content": "Exceptional freelance services! Jens is a Very skilled and quick developer, with impressive learning and adaptability. They consistently offered valuable suggestions that benefited our projects. Strong understanding of modern standards and seamless collaboration. Their cheerful, proactive, and smart approach made working together easy and enjoyable. Highly recommended!"
       },
       "dan-sveen": {
-        "content": "I recently hired them to develop the backend of my website, and I couldn’t be happier with the strong, efficient, and scalable results. Communication was seamless, they provided valuable insights, and I highly recommend their high-quality backend services."
+        "content": "I recently hired Jens to develop the backend of my website, and I couldn’t be happier with the strong, efficient, and scalable results. Communication was seamless, they provided valuable insights, and I highly recommend their high-quality backend services."
       },
       "hannu-valve": {
-        "content": "Working with them was a great experience – they were detail-oriented, proactive in solving challenges, and ensured smooth communication throughout. Their dedication made the whole project seamless and enjoyable."
+        "content": "Working with Jens was a great experience – they were detail-oriented, proactive in solving challenges, and ensured smooth communication throughout. Their dedication made the whole project seamless and enjoyable."
+      },
+      "livio": {
+        "content": "Jens is a really competent developer. He‘s got a lot of experience in making beautiful websites or UIs. Communication was never a problem he always responded as quickly as possible (sometimes he‘s a bit busy). I will definitly come back for any to-be-established website projects. I can highly recommend."
       }
     }
   }

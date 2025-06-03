@@ -15,7 +15,7 @@
     "services": "Tjänster",
     "services-nav": {
       "web-pages": "Företagswebbplatser",
-      "frontend-backend": "Frontend & Backend-utveckling",
+      "software-development": "Programvaruutveckling",
       "cloud-integration": "Cloud-integrationer",
       "ai-solutions": "AI-lösningar"
     }
@@ -70,7 +70,7 @@
     "subheadline": "Här är några av de projekt vi har genomfört."
   },
   "services": {
-    "headline": "Tjänster:",
+    "headline": "Läs mer om våra tjänster:",
     "web-pages": {
       "hero": {
         "headline": "Moderna webbplatser för företag",
@@ -146,14 +146,61 @@
         "value-price": "Webbplatsens värde"
       }
     },
-    "frontend-backend": {
+    "software-development": {
       "hero": {
-        "headline": "Frontend & Backend-utveckling",
-        "subheadline": "Vi erbjuder frontend och backend-utveckling för webbappar – databaser, API:er, betalsystem och andra komponenter."
+        "headline": "Utveckling av anpassad mjukvara",
+        "subheadline": "Vi erbjuder anpassade programvaruutvecklingstjänster för att säkerställa hög användarupplevelse, prestanda och säkerhet."
       },
-      "description": "Vi erbjuder frontend och backend-utveckling för webbappar – databaser, API:er, betalsystem och andra komponenter.",
-      "title": "Frontend & Backend-utveckling"
+      "description": "Vi erbjuder anpassade programvaruutvecklingstjänster för att säkerställa hög användarupplevelse, prestanda och säkerhet.",
+      "title": "Programvaruutveckling",
+      "what-we-offer": {
+        "headline": "Vad vi erbjuder:",
+        "tools": "Verktyg:",
+        "items": {
+          "0": {
+            "headline": "Frontend-utveckling",
+            "description": "Med traditionell frontend-utveckling följer vi branschbeprövade bästa praxis för att utveckla högpresterande webbgränssnitt med UI/UX som vår högsta prioritet.",
+            "features": "Viktiga funktioner:",
+            "feature-items": {
+              "0": "Responsiv design",
+              "1": "UI/UX-implementering",
+              "2": "Kompatibilitet mellan webbläsare",
+              "3": "Prestandaoptimering",
+              "4": "API-integration",
+              "5": "Versionskontroll och distribution"
+            }
+          },
+          "1": {
+            "headline": "Backend-utveckling",
+            "description": "Vi designar effektiva och säkra backend-system anpassade efter dina affärsbehov. Våra lösningar säkerställer prestanda, skalbarhet och dataintegritet, vilket ger ryggraden för att din applikation skall blomstra.",
+            "features": "Viktiga funktioner:",
+            "feature-items": {
+              "0": "API-utveckling",
+              "1": "Databasdesign och hantering",
+              "2": "Autentisering och auktorisering",
+              "3": "Implementering av betalningslogik",
+              "4": "Integrationer från tredje part",
+              "5": "Bästa säkerhetspraxis"
+            }
+          },
+          "2": {
+            "headline": "DevOps och moln",
+            "description": "Våra DevOps- och molntjänster hjälper dig att bygga skalbara, molnklara infrastrukturer. Vi optimerar distributionspipelines och säkerställer att dina system körs smidigt, tillförlitligt och säkert i stor skala.",
+            "features": "Viktiga funktioner:",
+            "feature-items": {
+              "0": "Skalbarhets- och prestandaoptimering",
+              "1": "Distribution och hosting",
+              "2": "Övervakning och Logging",
+              "3": "Kontinuerlig integration",
+              "4": "Distribution (CI/CD)",
+              "5": "Planering av molninfrastruktur",
+              "6": "Bästa praxis för säkerhet"
+            }
+          }
+        }
+      }
     },
+
     "cloud-integration": {
       "hero": {
         "headline": "Cloud-integrationer",
@@ -168,6 +215,48 @@
         "subheadline": "Vi erbjuder frontend och backend-utveckling för webbappar – databaser, API:er, betalsystem och andra komponenter."
       },
       "long-description": "Vi erbjuder frontend och backend-utveckling för webbappar – databaser, API:er, betalsystem och andra komponenter."
+    }
+  },
+  "why-work": {
+    "headline": "Varför arbeta med oss?",
+    "reasons": {
+      "0": {
+        "headline": "+3 års erfarenhet",
+        "description": "Vi har över 3 års erfarenhet av programvaruutveckling med en ständig passion för att lära och lösa nya utmaningar"
+      },
+      "1": {
+        "headline": "+5 nöjda kunder",
+        "description": "Vi har arbetat med flera kunder tidigare, och många av dem har varit nöjda och har återkommit med nya projekt."
+      },
+      "2": {
+        "headline": "Mångsidig kompetens",
+        "description": "Utöver teknikens värld har vi expertis inom avancerade AI-lösningar, affärsstrategi och marknadsföring. Dessutom erbjuder vi exceptionell kommunikation på fem olika språk."
+      },
+      "3": {
+        "headline": "+10 projekt på branschnivå",
+        "description": "Med över 10 projekt på branschnivå har vi byggt allt från enkla företagshemsidor till komplexa AI-drivna lösningar."
+      }
+    }
+  },
+  "success-stories": {
+    "headline": "Våra framgångshistorier:",
+    "result": "Resultat: ",
+    "items": {
+      "0": {
+        "title": "Webbplatsoptimering",
+        "description": "Omdesignade och förbättrade ett företags webbplats vilket gjorde användargränssnittet mer tilltalande och prestandaeffektivt.",
+        "result": "Minskade driftskostnader med 100 % och ökade trafiken med förbättrad SEO."
+      },
+      "1": {
+        "title": "Arkitektonisk förenkling",
+        "description": "Omstrukturerade en tidigare bristfällig arkitektur i ett realtidschattsystem genom att eliminera onödiga beroenden och lösa prestandaflaskhalsar.",
+        "result": "Minskade driftstopp med 99 % och prestanda med 10 gånger tack vare förbättrad minneshantering."
+      },
+      "2": {
+        "title": "Excellens inom fullstack-webbutveckling",
+        "description": "Självständigt designade, utvecklade och levererade en fullstack-webbplats, vilket säkerställde kvalitet genom nära samarbete med kunden och effektiv kommunikation.",
+        "result": "Levererade exakt vad kunden ville ha, utan att någon teknisk kunskap krävdes från deras sida."
+      }
     }
   },
   "projects": {
@@ -192,13 +281,16 @@
     "headline": "Kundomdömen:",
     "items": {
       "harri-vaelilae": {
-        "content": "Exceptionella frilansare! Väldigt skickliga och snabba utvecklare med imponerande anpassningsförmåga. De kom kontinuerligt med värdefulla förslag som gynnade våra projekt. Stark förståelse för moderna standarder och smidigt samarbete. Deras positiva och proaktiva inställning gjorde samarbetet enkelt och trevligt. Rekommenderas varmt!"
+        "content": "Exceptionella frilanstjänster! Jens är en mycket skicklig och snabb utvecklare med imponerande inlärningsförmåga och anpassningsförmåga. De erbjöd konsekvent värdefulla förslag som gynnade våra projekt. Stark förståelse för moderna standarder och sömlöst samarbete. Deras glada, proaktiva och smarta tillvägagångssätt gjorde det enkelt och roligt att arbeta tillsammans. Rekommenderas starkt!"
       },
       "dan-sveen": {
-        "content": "Jag anlitade dem nyligen för backend-utveckling och är extremt nöjd med de starka, effektiva och skalbara resultaten. Kommunikationen var smidig, de bidrog med värdefulla insikter, och jag rekommenderar deras högkvalitativa backend-tjänster starkt."
+        "content": "Jag anlitade nyligen Jens för att utveckla backend-delen av min webbplats, och jag kunde inte vara nöjdare med de starka, effektiva och skalbara resultaten. Kommunikationen var smidig, de gav värdefulla insikter och jag rekommenderar starkt deras högkvalitativa backend-tjänster."
       },
       "hannu-valve": {
-        "content": "Att arbeta med dem var en fantastisk upplevelse – de var detaljorienterade, proaktiva i att lösa utmaningar och såg till att kommunikationen flöt på hela vägen. Deras engagemang gjorde projektet smidigt och roligt."
+        "content": "Att arbeta med Jens var en fantastisk upplevelse – de var detaljorienterade, proaktiva i att lösa utmaningar och säkerställde smidig kommunikation genomgående. Deras engagemang gjorde hela projektet smidigt och roligt."
+      },
+      "livio": {
+        "content": "Jens är en riktigt kompetent utvecklare. Han har stor erfarenhet av att skapa snygga webbplatser eller användargränssnitt. Kommunikation var aldrig ett problem, han svarade alltid så snabbt som möjligt (ibland är han lite upptagen). Jag kommer definitivt tillbaka för alla kommande webbprojekt. Jag kan varmt rekommendera honom."
       }
     }
   }

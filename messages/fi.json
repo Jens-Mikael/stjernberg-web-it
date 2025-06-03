@@ -15,7 +15,7 @@
     "services": "Palvelut",
     "services-nav": {
       "web-pages": "Kotisivut yritykselle",
-      "frontend-backend": "Frontend ja backend-kehitys",
+      "software-development": "Ohjelmistokehitys",
       "cloud-integration": "Pilvi-integraatiot",
       "ai-solutions": "Tekoälyratkaisut"
     }
@@ -69,7 +69,7 @@
     "subheadline": "Tässä on joitakin projekteista, joita olemme toteuttaneet."
   },
   "services": {
-    "headline": "Palvelut:",
+    "headline": "Lue lisää palveluistamme:",
     "web-pages": {
       "hero": {
         "headline": "Modernit nettisivut yrityksille",
@@ -145,13 +145,59 @@
         "value-price": "Verkkosivustojen arvo"
       }
     },
-    "frontend-backend": {
+    "software-development": {
       "hero": {
-        "headline": "Frontend ja backend-kehitys",
-        "subheadline": "Tarjoamme frontend- ja backend-kehitystä verkkoapplikaatioihin, oli kyseessä tietokantojen, rajapintojen, maksujärjestelmien, tai muiden komponenttien toteuttamista."
+        "headline": "Monipuoliset ja tehokkaat ohjelmistoratkaisut",
+        "subheadline": "Tarjoamme monipuolisia ohjelmistokehitys palveluita varmistaaksemme korkean käyttökokemuksen, suorituskyvyn ja turvallisuuden."
       },
-      "description": "Tarjoamme frontend- ja backend-kehitystä verkkoapplikaatioihin, oli kyseessä tietokantojen, rajapintojen, maksujärjestelmien, tai muiden komponenttien toteuttamista.",
-      "title": "Frontend ja backend-kehitys"
+      "description": "Tarjoamme monipuolisia ohjelmistokehitys palveluita varmistaaksemme korkean käyttökokemuksen, suorituskyvyn ja turvallisuuden.",
+      "title": "Ohjelmistokehitys",
+      "what-we-offer": {
+        "headline": "Mitä tarjoamme:",
+        "tools": "Työkalut:",
+        "items": {
+          "0": {
+            "headline": "Frontend-kehitys",
+            "description": "Perinteisessä frontend-kehityksessä noudatamme alan parhaita käytäntöjä kehittääksemme tehokkaita verkkokäyttöliittymiä, joissa käyttöliittymä ja käyttäjäkokemus on meille ensisijainen prioriteetti.",
+            "features": "Tärkeimmät ominaisuudet:",
+            "feature-items": {
+              "0": "Responsiivinen suunnittelu",
+              "1": "UI/UX-toteutus",
+              "2": "Selainyhteensopivuus",
+              "3": "Suorituskyvyn optimointi",
+              "4": "API-integraatio",
+              "5": "Versioiden hallinta ja käyttöönotto"
+            }
+          },
+          "1": {
+            "headline": "Backend-kehitys",
+            "description": "Suunnittelemme vankkoja ja turvallisia backend-järjestelmiä räätälöity yrityksesi tarpeisiin. Ratkaisumme varmistavat suorituskyvyn, skaalautuvuuden ja tietojen eheyden, mikä tarjoaa sovelluksesi menestymisen perustan.",
+            "features": "Tärkeimmät ominaisuudet:",
+            "feature-items": {
+              "0": "API-kehitys",
+              "1": "Tietokannan suunnittelu ja hallinta",
+              "2": "Todennus ja valtuutus",
+              "3": "Maksulogiikan toteutus",
+              "4": "Kolmannen osapuolen integraatiot",
+              "5": "Tietoturvallisuuden parhaat käytännöt"
+            }
+          },
+          "2": {
+            "headline": "DevOps & pilvipalvelut",
+            "description": "DevOps- ja pilvipalvelumme auttavat sinua rakentamaan skaalautuvia, pilvivalmiita infrastruktuureja. Optimoimme käyttöönottoputket ja varmistamme, että järjestelmäsi toimivat sujuvasti, luotettavasti ja turvallisen skaalautuvasti.",
+            "features": "Tärkeimmät ominaisuudet:",
+            "feature-items": {
+              "0": "Skaalautuvuus ja suorituskyvyn optimointi",
+              "1": "Käyttöönotto ja ylläpito",
+              "2": "Valvonta ja lokikirjaus",
+              "3": "Jatkuva integraatio",
+              "4": "Käyttöönotto (CI/CD)",
+              "5": "Pilvi-infrastruktuurin suunnittelu",
+              "6": "Tietoturvan parhaat käytännöt"
+            }
+          }
+        }
+      }
     },
     "cloud-integration": {
       "hero": {
@@ -167,6 +213,49 @@
         "subheadline": "Tarjoamme frontend- ja backend-kehitystä verkkoapplikaatioihin, oli kyseessä tietokantojen, rajapintojen, maksujärjestelmien, tai muiden komponenttien toteuttamista."
       },
       "long-description": "Tarjoamme frontend- ja backend-kehitystä verkkoapplikaatioihin, oli kyseessä tietokantojen, rajapintojen, maksujärjestelmien, tai muiden komponenttien toteuttamista."
+    }
+  },
+  "why-work": {
+    "headline": "Miksi työskennellä kanssamme?",
+    "reasons": {
+      "0": {
+        "headline": "+3 vuotta kokemusta",
+        "description": "Meillä on yli 3 vuoden kokemus ohjelmistokehityksestä ja jatkuva intohimo oppia ja ratkaista uusia haasteita."
+      },
+      "1": {
+        "headline": "+5 tyytyväistä asiakasta",
+        "description": "Olemme työskennelleet useiden asiakkaiden kanssa aiemmin, ja monet heistä ovat olleet tyytyväisiä ja palanneet uusien projektien kera."
+      },
+      "2": {
+        "headline": "Monipuolinen asiantuntemus",
+        "description": "Teknologian maailman lisäksi tarjoamme asiantuntemusta edistyneissä tekoälyratkaisuissa, liiketoimintastrategiassa ja markkinoinnissa. Lisäksi tarjoamme erinomaista kommunikaatiota viidellä eri kielellä."
+      },
+      "3": {
+        "headline": "+10 toimialatason projektia",
+        "description": "Yli 10 toimialatason projektin ansiosta olemme rakentaneet kaikkea yksinkertaisista yrityssivuista monimutkaisiin tekoälypohjaisiin ratkaisuihin."
+      }
+    }
+  },
+
+  "success-stories": {
+    "headline": "Menestystarinamme:",
+    "result": "Tulokset: ",
+    "items": {
+      "0": {
+        "title": "Verkkosivuston optimointi",
+        "description": "Uudistimme ja paransimme yrityksen verkkosivustoa tehden käyttöliittymästä houkuttelevamman ja tehokkaamman.",
+        "result": "Käyttökustannukset laskivat 100 % ja liikenne lisääntyi parannetulla hakukoneoptimoinnilla (SEO)."
+      },
+      "1": {
+        "title": "Arkkitehtuurin yksinkertaistaminen",
+        "description": "Uudelleen faktorisoimme aiemmin virheellisen arkkitehtuurin reaaliaikaisessa chat-järjestelmässä poistamalla tarpeettomat riippuvuudet ja ratkaisemalla suorituskyvyn pullonkauloja.",
+        "result": "Lyhensi käyttökatkoksia 99 % ja suorituskykyä 10-kertaisesti parannetun muistinhallinnan ansiosta."
+      },
+      "2": {
+        "title": "Huippuosaamista fullstack-verkkokehityksessä",
+        "description": "Suunnittelimme ja kehitimme itsenäisesti fullstack-verkkosivuston varmistaen laadun tiiviin asiakasyhteistyön ja tehokkaan viestinnän avulla.",
+        "result": "Toimitimme juuri sen mitä asiakas halusi ilman, että he tarvitsivat teknistä osaamista."
+      }
     }
   },
 
@@ -192,13 +281,16 @@
     "headline": "Mitä asiakkaat sanovat:",
     "items": {
       "harri-vaelilae": {
-        "content": "Poikkeukselliset freelance-palvelut! He ovat erittäin taitavia ja nopeita koodaamaan, ja heillä on huomattavat kyvyt oppia ja sopeutua. He antoivat jatkuvasti arvokkaita ehdotuksia, joista on ollut paljon hyötyä projekteillemme. Heillä on vankka käsitys nykyaikaisista standardeista ja he toimivat saumattomasti niiden puitteissa. Heidän iloinen, ennakoiva ja älykäs lähestymistapansa teki yhteistyöstä vaivatonta ja nautinnollista. Erittäin suositeltavaa!"
+        "content": "Erinomaisia ​​freelance-palveluita! Jens on erittäin taitava ja nopea kehittäjä, jolla on vaikuttava oppimis- ja sopeutumiskyky. He tarjosivat jatkuvasti arvokkaita ehdotuksia, jotka hyödyttivät projektejamme. Vahva ymmärrys nykyaikaisista standardeista ja saumaton yhteistyö. Heidän iloinen, ennakoiva ja älykäs lähestymistapansa tekivät yhteistyöstä helppoa ja nautinnollista. Erittäin suositeltavaa!"
       },
       "dan-sveen": {
-        "content": "Palkkasin heidät äskettäin kehittämään verkkosivustoni palvelinta, enkä voisi olla tyytyväisempi vankoihin, tehokkaisiin ja skaalautuviin tuloksiin. He pitivät saumatonta viestintää, tarjosivat arvokkaita oivalluksia, ja suosittelen heidän korkealaatuisia backend-palveluja."
+        "content": "Palkkasin Jensin kehittämään verkkosivustoni palvelinta, enkä voisi olla tyytyväisempi vahvoihin, tehokkaisiin ja skaalautuviin tuloksiin. Kommunikaatio oli nopeeta, he antoivat arvokasta tietoa ja suosittelen lämpimästi heidän korkealaatuisia serveri-palveluita."
       },
       "hannu-valve": {
-        "content": "Työskentely heidän kanssaan oli upea kokemus – he olivat yksityiskohtiin suuntautuneita, proaktiivisia haasteiden ratkaisemisessa ja varmistivat sujuvan viestinnän kauttaaltaan. Heidän omistautumisensa ja sitoutumisensa teki koko projektista saumattoman ja nautinnollisen."
+        "content": "Jensin kanssa työskentely oli hieno kokemus – he olivat yksityiskohtiin suuntautuneita, ratkaisivat haasteita ennakoivasti ja varmistivat sujuvan viestinnän koko projektin ajan. Heidän omistautumisensa teki koko projektista suoraviivaisen ja nautinnollisen."
+      },
+      "livio": {
+        "content": "Jens on todella pätevä kehittäjä. Hänellä on paljon kokemusta kauniiden verkkosivustojen tai käyttöliittymien tekemisestä. Kommunikointi ei ollut koskaan ongelma, hän vastasi aina mahdollisimman nopeasti (joskus hän on hieman kiireinen). Tulen ehdottomasti takaisin kaikissa tulevissa verkkosivustoprojekteissa. Voin lämpimästi suositella"
       }
     }
   }

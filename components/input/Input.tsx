@@ -22,7 +22,7 @@ export default function InputText({
       )}
       <input
         className={cn(
-          "ring-main focus:border-main bg-gray-100  text-content-dark rounded-lg border-1 px-3 py-2 ring-0 ring-offset-0 outline-0 transition-all focus:ring-1 focus:outline-0",
+          "ring-main focus:border-main bg-gray-100  text-content-dark rounded-lg border-1 px-3 py-2 ring-0 ring-offset-0 outline-0 transition-all focus:ring-1 focus:outline-0 placeholder-gray-400",
           className,
         )}
         {...props}
