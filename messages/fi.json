@@ -69,7 +69,8 @@
     "subheadline": "Tässä on joitakin projekteista, joita olemme toteuttaneet."
   },
   "services": {
-    "headline": "Lue lisää palveluistamme:",
+    "headline": "Lue palveluistamme:",
+    "more": "Lue lisää",
     "web-pages": {
       "hero": {
         "headline": "Modernit nettisivut yrityksille",

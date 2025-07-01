@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/navigation";
-import { Code, Globe } from "lucide-react";
+import { ArrowRight, Code, Globe } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
@@ -9,8 +9,11 @@ export default function Services() {
   return (
     <div
       id="services"
-      className="px-5 sm:px-10 lg:px-20 xl:px-30 py-20 flex justify-center bg-base-light"
+      className="px-5 sm:px-10 lg:px-20 xl:px-30 pb-20 py-20 flex justify-center flex-col gap-16 bg-base-light"
     >
+      {/* <div className="block md:hidden">
+        <TrustedBy />
+      </div> */}
       <div className="flex flex-col gap-10 max-w-[1800px] w-full">
         <h2 className="text-4xl font-bold">{t("headline")}</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-5 xl:gap-20 w-full">
@@ -60,6 +63,9 @@ export default function Services() {
                 </h3>
                 <p className="text-gray-200 group-hover:opacity-100 lg:text-lg lg:opacity-0 transition-all duration-500">
                   {t(`${service.key}.description`)}
+                </p>
+                <p className="flex items-center gap-2 mt-2 md:mt-0 font-medium">
+                  Lue lisää <ArrowRight className="size-6 text-main" strokeWidth={2.5} />
                 </p>
               </div>
             </Link>

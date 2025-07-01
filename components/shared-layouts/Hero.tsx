@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import ButtonCTA from "../buttons/ButtonCTA";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import TrustedBy from "./TrustedBy";
 
 export default function Hero({ page }: { page: string }) {
   const [showHeroBackground, setShowHeroBackground] = useState(true);
@@ -27,26 +28,28 @@ export default function Hero({ page }: { page: string }) {
   return (
     <div
       ref={heroRef}
-      className="flex px-5 sm:px-10 lg:px-20 xl:px-30 relative flex-col items-center overflow-hidden text-content-light pt-30 sm:pt-40 pb-5 sm:pb-10"
+      className="flex px-5 sm:px-10 lg:px-20 xl:px-30 relative flex-col items-center overflow-hidden text-content-light pt-30 sm:pt-40 pb-10 sm:pb-10"
     >
       <div className="max-w-[1800px] w-full space-y-20 lg:space-y-30 relative">
         <div className="flex flex-col gap-10 w-full">
           {/* QUOTE */}
-          <div className="flex gap-3 sm:items-center text-gray-200 sm:flex-row flex-col">
-            <QuoteIcon className="w-10 h-10" />
-            <div className="flex flex-col">
-              <p className="italic lg:text-lg">{heroOther("quote")}</p>
-              <p className="sm:text-sm text-xs">
+          <div className="flex gap-2 sm:gap-3 sm:items-center text-gray-200 sm:flex-row flex-col ">
+            <QuoteIcon className="md:size-10 size-6 sm:size-8" />
+            <div className="space-y-1">
+              <p className="italic sm:text-base text-sm lg:text-lg">
+                {heroOther("quote")}
+              </p>
+              <p className="sm:text-sm text-[10px]">
                 {heroOther("quote-author")}
               </p>
             </div>
           </div>
 
           {/* MAIN */}
-          <div className="flex flex-col gap-5 max-w-[700px]">
+          <div className="flex flex-col gap-3 sm:gap-5 max-w-[700px]">
             <h1>{t("headline")}</h1>
             <h4>{t("subheadline")}</h4>
-            <div className="flex gap-5">
+            <div className="flex gap-5 sm:mt-0 mt-3">
               <ButtonCTA />{" "}
               <Link href="#projects">
                 <ButtonOutline>{heroOther("projects")}</ButtonOutline>
@@ -54,27 +57,9 @@ export default function Hero({ page }: { page: string }) {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 lg:text-start text-center w-full gap-3 sm:gap-5 lg:gap-10 relative">
-          <p className="text-gray-300 lg:text-xl">{heroOther("trusted-by")}</p>
-          {[
-            "one-point-code",
-            "eskimo-village",
-            "roof-history",
-            "hansatorin-apteekki",
-            "hexer-network",
-          ].map((brand) => (
-            <div key={brand} className="relative h-8 lg:h-10 flex-1">
-              <Image
-                key={brand}
-                src={`/brands/${brand}.png`}
-                alt={brand}
-                fill
-                className="object-contain"
-              />
-            </div>
-          ))}
-        </div>
+        <TrustedBy />
       </div>
+      {" "}
 
       {showHeroBackground && (
         <>
