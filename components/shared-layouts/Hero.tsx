@@ -59,6 +59,7 @@ export default function Hero({ page }: { page: string }) {
         </div>
         <TrustedBy />
       </div>
+      {" "}
 
       {showHeroBackground && (
         <>
