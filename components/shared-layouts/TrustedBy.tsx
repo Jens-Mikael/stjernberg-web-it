@@ -1,9 +1,6 @@
-import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function TrustedBy() {
-  const heroOther = useTranslations("hero");
-
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 lg:text-start text-center w-full gap-3 sm:gap-5 lg:gap-10 relative">
       {[

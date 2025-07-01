@@ -3,8 +3,6 @@ import { ArrowRight, Code, Globe } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
-import TrustedBy from "./shared-layouts/TrustedBy";
-import ButtonFilled from "./buttons/ButtonFilled";
 
 export default function Services() {
   const t = useTranslations("services");
