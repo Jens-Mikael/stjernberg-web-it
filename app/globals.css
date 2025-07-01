@@ -30,7 +30,7 @@ h2 {
 }
 
 h4 {
-  @apply text-xl xl:text-3xl font-medium;
+  @apply text-base lg:text-xl xl:text-3xl font-medium;
 }
 
 button {

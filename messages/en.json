@@ -70,6 +70,7 @@
   },
   "services": {
     "headline": "Our services:",
+    "more": "Read more",
     "web-pages": {
       "hero": {
         "headline": "Modern websites for businesses",
@@ -151,7 +152,7 @@
         "subheadline": "We provide custom software development services to ensure high user experience, performance and security."
       },
       "description": "We provide frontend and backend development for web apps—databases, APIs, payment systems, or other components.",
-      "title": "Frontend & Backend Development",
+      "title": "Software Development",
       "what-we-offer": {
         "headline": "What We Offer:",
         "tools": "Tools:",
