@@ -65,7 +65,8 @@ export default function Services() {
                   {t(`${service.key}.description`)}
                 </p>
                 <p className="flex items-center gap-2 mt-2 md:mt-0 font-medium">
-                  Lue lisää <ArrowRight className="size-6 text-main" strokeWidth={2.5} />
+                  {t(`more`)}
+                  <ArrowRight className="size-6 text-main" strokeWidth={2.5} />
                 </p>
               </div>
             </Link>
