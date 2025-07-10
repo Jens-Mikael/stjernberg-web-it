@@ -52,7 +52,7 @@ export default function Projects({
   return (
     <div
       id="projects"
-      className="px-5 sm:px-10 lg:px-20 xl:px-30 py-20 flex justify-center"
+      className="p-3 xs:px-5 sm:px-10 lg:px-20 xl:px-30 py-20 flex justify-center"
     >
       <div className="flex flex-col gap-10 max-w-[1800px] w-full">
         {!isProjectsPage && (
