@@ -266,7 +266,7 @@
     "items": {
       "eskimo-village": {
         "title": "Eskimovillage",
-        "description": "En komplett plattform för självstudier med blogglektioner, videoföreläsningar och ett respektfullt, peppande och tajt community.",
+        "description": "En komplett plattform för självstudier med blogglektioner, videoföreläsningar tillsammans ett respektfullt, peppande och tajt community.",
         "role": "Huvudansvarig frontend-utvecklare",
         "core-features": {
           "title": "Huvudfunktioner:",

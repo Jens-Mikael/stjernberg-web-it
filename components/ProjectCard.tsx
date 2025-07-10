@@ -14,6 +14,7 @@ type TProject = {
   link: string;
   features: number[];
   achievements: number[];
+  tools: string[];
 };
 
 export default function ProjectCard({
@@ -125,16 +126,7 @@ export default function ProjectCard({
               Tools used:
             </p>
             <div className="flex flex-wrap gap-2 p-1">
-              {[
-                "Github",
-                "Linkedin",
-                "X",
-                "Figma",
-                "Notion",
-                "Slack",
-                "Google Sheets",
-                "Google Docs",
-              ].map((tool) => (
+                {project.tools.map((tool) => (
                 <div
                   key={tool}
                   className="rounded-xl px-3 py-1.5 bg-gradient-to-r from-blue-500/10 to-purple-500/10 text-blue-700 border border-blue-200/50 hover:from-blue-500/20 hover:to-purple-500/20 hover:border-blue-300/70 transition-all duration-200 cursor-default transform hover:scale-105 shadow-sm"

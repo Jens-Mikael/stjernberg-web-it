@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import ProjectCard from "./ProjectCard";
 
-
 const projects = [
   {
     key: "lokota-ai",
@@ -12,6 +11,23 @@ const projects = [
     link: "https://lokotaai.com/",
     features: [0, 1, 2, 3, 4],
     achievements: [0, 1, 2, 3],
+    tools: [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Vite",
+      "AWS",
+      "Docker",
+      "OpenAI",
+      "DeepSeek",
+      "Langchain",
+      "RAG",
+      "Pincone",
+      "Redis",
+      "BullMQ",
+      "MongoDB",
+      "CI/CD",
+    ],
   },
   {
     key: "eskimo-village",
@@ -19,6 +35,17 @@ const projects = [
     link: "https://eskimovillage.com/",
     features: [0, 1, 2, 3, 4],
     achievements: [0, 1, 2],
+    tools: [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "NestJS",
+      "Docker",
+      "MongoDB",
+      "Cloudflare",
+      "Jitsi",
+      "Matrix-js-sdk",
+    ],
   },
   {
     key: "shot-canvas",
@@ -26,6 +53,7 @@ const projects = [
     link: "https://shotcanvas.com/",
     features: [0, 1, 2],
     achievements: [0, 1, 2],
+    tools: ["Next.js", "Fabric.js", "Tailwind CSS", "Typescript", "Vercel"],
   },
   {
     key: "hansatorin-apteekki",
@@ -33,6 +61,7 @@ const projects = [
     link: "https://hansatorinapteekki.fi/",
     features: [0, 1, 2],
     achievements: [0, 1, 2],
+    tools: ["Next.js", "Tailwind CSS", "Typescript", "Vercel", "Google Cloud"],
   },
   {
     key: "roof-history",
@@ -40,6 +69,17 @@ const projects = [
     link: "https://roofhistory.com/",
     features: [0, 1, 2],
     achievements: [0, 1, 2],
+    tools: [
+      "Next.js",
+      "Supabase",
+      "NextAuth",
+      "Tailwind CSS",
+      "Typescript",
+      "PostgreSQL",
+      "DrizzleORM",
+      "Vercel",
+      "Google Cloud",
+    ],
   },
 ];
 export default function Projects({
@@ -59,15 +99,15 @@ export default function Projects({
           <h2 className="text-4xl font-bold">{t("headline")}</h2>
         )}
         <div className="columns-1 lg:columns-2 gap-5 xl:gap-10 w-full">
-          {projects.slice(0, isProjectsPage ? projects.length : 2).map(
-            (project) => (
+          {projects
+            .slice(0, isProjectsPage ? projects.length : 2)
+            .map((project) => (
               <ProjectCard
                 key={project.key}
                 project={project}
                 className="break-inside-avoid mb-5 xl:mb-10"
               />
-            )
-          )}
+            ))}
         </div>
         {!isProjectsPage && (
           <Link href="/projects">

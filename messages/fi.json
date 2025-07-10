@@ -266,30 +266,30 @@
     "items": {
       "eskimo-village": {
         "title": "Eskimovillage",
-        "description": "Laaja sovellus itseopiskeluun tarkoitetulle portaalisivustolle, jossa on blogioppitunteja, videoluentoja ja kunnioittava, kannustava sekä tiivis yhteisö.",
+        "description": "Laaja sovellus itseopiskeluun tarkoitetulle portaalisivustolle, jossa on blogioppitunteja, videoluentoja sekä kunnioittava, kannustava ja tiivis yhteisö.",
         "role": "Päävastuullinen frontend-kehittäjä",
         "core-features": {
           "title": "Pääominaisuudet:",
           "items": {
-            "0": "Tehokas reaaliaikainen chat-toiminto",
+            "0": "Nopea reaaliaikainen chat-toiminto",
             "1": "CMS SEO-blogisivuille",
-            "2": "Integroitu Jitsi meet",
+            "2": "Integroitu realiaikainen Jitsi meet",
             "3": "Monipuolinen admin-näkymä",
-            "4": "Kalenterin ajanhallinta"
+            "4": "Kalenteri ajanhallintaan ja ilmoittautumisiin"
           }
         },
         "achievements": {
           "title": "Saavutukset:",
           "items": {
-            "0": "Migroin reaaliaikaisen chatin vakaampaan ja skaalautuvampaan ratkaisuun, mikä vähensi viivettä ja käyttökatkoja ja paransi suorituskykyä 10-kertaiseksi.",
-            "1": "Lisäsin näkyvyyttä 90 % paremmalla SEO:lla",
-            "2": "Paransin sivujen nopeutta älykkäällä välimuistilla ja kuvien optimoinnilla"
+            "0": "Johdin migraatiota reaaliaikaisen chatin vakaampaan ja skaalautuvampaan ratkaisuun, mikä vähensi viivettä ja käyttökatkoja ja paransi suorituskykyä 10-kertaiseksi.",
+            "1": "Paransin näkyvyyttä 90 % paremmalla SEO:lla",
+            "2": "Paransin sivujen nopeutta älykkäällä välimuistin käytöllä ja kuvien optimoinnilla"
           }
         }
       },
       "lokota-ai": {
         "title": "LokotaAI",
-        "description": "Täysiverinen AI-pohjainen chatbot-widget, jonka yritykset voivat upottaa verkkosivuilleen asiakaspalvelun tueksi.",
+        "description": "AI-pohjainen chatbot-widget, jonka yritykset voivat upottaa verkkosivuilleen asiakaspalvelun tueksi.",
         "role": "Perustaja & fullstack-kehittäjä",
         "core-features": {
           "title": "Pääominaisuudet:",
@@ -297,14 +297,14 @@
             "0": "Tehokas RAG-arkkitehtuuri",
             "1": "Automaattinen web scraping kontekstin keräämiseen",
             "2": "Reinforcement learning parempiin vastauksiin",
-            "3": "Yritystason väärinkäytösten tunnistus ja esto",
+            "3": "Korkeatasoinen väärinkäytösten tunnistus ja esto",
             "4": "Widgetin ulkoasun muokkaus omalla värimaailmalla"
           }
         },
         "achievements": {
           "title": "Saavutukset:",
           "items": {
-            "0": "Vähensin käyttökustannuksia 70 % hyödyntämällä tehokasta RAG-arkkitehtuuria perinteisten LLM-mallien sijaan",
+            "0": "Vähensin käyttökustannuksia 70 % hyödyntämällä tehokasta RAG-arkkitehtuuria perinteisten LLM-käytäntöjen sijaan",
             "1": "Sain yli 500 kävijää 24 tunnissa julkaisun jälkeen",
             "2": "Lisäsin välimuistin yleisille kysymyksille nopeuden ja suorituskyvyn parantamiseksi",
             "3": "Rakensin universaalin upotettavan skriptin, joka toimii kaikissa moderneissa web-kehyksissä ja käyttää älykästä CDN-hostingia nopeampaan sivulataukseen"
@@ -313,20 +313,20 @@
       },
       "shot-canvas": {
         "title": "ShotCanvas",
-        "description": "Ilmainen SaaS-työkalu tylsien kuvakaappausten muuttamiseen näyttäviksi kuviksi macOS- ja liukuväritaustoilla.",
+        "description": "Ilmainen SaaS-työkalu tylsien kuvakaappausten muuttamiseen näyttäviksi kuviksi macOS- ja gradient-taustoilla.",
         "role": "Perustaja & fullstack-kehittäjä",
         "core-features": {
           "title": "Pääominaisuudet:",
           "items": {
-            "0": "Lataa kuvakaappauksia ja lisää niihin moderni tausta",
-            "1": "Säädä taustan sumeutta ja kuvien pyöreyttä",
+            "0": "Lataa kuvakaappauksia ja lisää niihin modernin taustan",
+            "1": "Säädä taustan sumeutta ja kuvien kulmien pyöreyttä",
             "2": "Mukautetut kuvasuhteet, tiedostotyypit ja kuvakoot"
           }
         },
         "achievements": {
           "title": "Saavutukset:",
           "items": {
-            "0": "Sain yli 1000 käyntiä ja yli 60 uniikkia konversiota",
+            "0": "Sain yli 1000 kävijöitä ja yli 60 uniikkia konversiota",
             "1": "Rakensin selkeän ja helppokäyttöisen käyttöliittymän, joka vähentää sekavuutta",
             "2": "Kehitin tehokkaan SEO-idean luomalla yli 200 eri avainsanahakua vastaavaa aloitussivua"
           }
@@ -334,7 +334,7 @@
       },
       "hansatorin-apteekki": {
         "title": "Hansatorin Apteekki",
-        "description": "Rakensimme verkkosivun Turun apteekille alusta asti, suunnittelimme selkeän käyttöliittymän, paransimme SEO-näkyvyyttä, vähensimme kuluja ja mahdollistimme helpon sisällönhallinnan Google Sheetsin kautta.",
+        "description": "Rakensin verkkosivun Turun apteekille alusta asti, suunnittelin selkeän käyttöliittymän, paransin SEO-näkyvyyttä, vähensin kuluja ja mahdollistin helpon sisällönhallinnan Google Sheetsin kautta.",
         "role": "Päävastuullinen fullstack-kehittäjä",
         "core-features": {
           "title": "Pääominaisuudet:",
@@ -347,16 +347,16 @@
         "achievements": {
           "title": "Saavutukset:",
           "items": {
-            "0": "Vähensimme jatkuvia kustannuksia 100 % siirtymällä serverless-arkkitehtuuriin",
-            "1": "Lisäsimme orgaanista liikennettä 30 % paremmalla SEO:lla",
-            "2": "Kehitimme skaalautuvan ja kustannustehokkaan CMS-ratkaisun",
-            "3": "Paransimme konversioprosenttia 20 % paremmalla UI/UX:llä"
+            "0": "Vähensin jatkuvia kustannuksia 100 % siirtymällä serverless-arkkitehtuuriin",
+            "1": "Lisäsin orgaanista liikennettä 30 % paremmalla SEO:lla",
+            "2": "Kehittin skaalautuvan ja kustannustehokkaan CMS-ratkaisun",
+            "3": "Paransin konversioprosenttia 20 % paremmalla UI/UX:llä"
           }
         }
       },
       "roof-history": {
         "title": "Roof History",
-        "description": "Suunnittelimme ja toteutimme kattoremonttiyritykselle Yhdysvalloissa taustajärjestelmän, mukaan lukien skaalautuvan palvelinarkkitehtuurin, turvalliset kirjautumisominaisuudet ja paremman käyttöliittymän.",
+        "description": "Suunnittelin ja toteutin kattoremonttiyritykselle Yhdysvalloissa taustajärjestelmän, mukaan lukien skaalautuvan palvelinarkkitehtuurin, turvalliset kirjautumisominaisuudet ja paremman käyttöliittymän.",
         "role": "Senior Backend-kehittäjä",
         "core-features": {
           "title": "Pääominaisuudet:",
