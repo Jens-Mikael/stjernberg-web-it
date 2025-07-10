@@ -264,15 +264,114 @@
     "items": {
       "eskimo-village": {
         "title": "Eskimovillage",
-        "description": "We designed and developed the web app UI, improving speed and usability. We also implemented real-time messaging and SEO for smooth and visible performance online."
+        "description": "A comprehensive application for a self-help learning portal website with blog lessons, video lectures and a respectful, encouraging and strongly connected community.",
+        "role": "Lead Frontend-developer",
+        "core-features": {
+          "title": "Core features:",
+          "items": {
+            "0": "Powerful realtime chat feature",
+            "1": "CMS for SEO blog pages",
+            "2": "Integrated Jitsi meet",
+            "3": "Complex admin dashboard",
+            "4": "Calendar scheduling"
+          }
+        },
+        "achievements": {
+          "title": "Achievements:",
+          "items": {
+            "0": "Migrated a real-time chat to a more stable and scalable solution, cutting latency, downtime and boosting performance by 10x.",
+            "1": "Increased visibility by 90% with enhanced SEO",
+            "2": "Improved page speed with smart caching and image optimization"
+          }
+        }
+      },
+      "lokota-ai": {
+        "title": "LokotaAI",
+        "description": "A fully featured AI-powered chatbot widget that businesses can integrate into their websites to serve customers by answering various queries.",
+        "role": "Founder & fullstack-developer",
+        "core-features": {
+          "title": "Core features:",
+          "items": {
+            "0": "Powerful RAG-based architecture",
+            "1": "Automatic webscraping for context gathering",
+            "2": "Reinforcement learning for better responses",
+            "3": "Enterprice level abuse detection and prevention",
+            "4": "Widget customization with own color theme"
+          }
+        },
+        "achievements": {
+          "title": "Achievements:",
+          "items": {
+            "0": "Reduced operational costs by 70% through efficient RAG-architecture over traditional LLM approaches",
+            "1": "Gained +500 visitors in 24h after launch",
+            "2": "Added caching to common queries to reduce latency and improve performance",
+            "3": "Developed a universally embeddable script compatible with any modern web framework, utilizing smart CDN hosting for optimized page load times"
+          }
+        }
+      },
+      "shot-canvas": {
+        "title": "ShotCanvas",
+        "description": "A free SaaS tool for transforming dull and ugly screenshots into beatiful images with macOS- and gradient backgrounds.",
+        "role": "Founder & fullstack-developer",
+        "core-features": {
+          "title": "Core features:",
+          "items": {
+            "0": "Upload screenshots and add modern background to them",
+            "1": "Adjust background blur and image roundness",
+            "2": "Custom aspect ratios, export types and image sizes"
+          }
+        },
+        "achievements": {
+          "title": "Achievements:",
+          "items": {
+            "0": "Gained +1000 visits and +60 unique conversions",
+            "1": "Engineered a seamless and user-friendly UI/UX to minimize clutter",
+            "2": "Introduced a powerful SEO concept by generating +200 different entrypoints for keyword matching"
+          }
+        }
       },
       "hansatorin-apteekki": {
         "title": "Hansatori Pharmacy",
-        "description": "We built a website for the pharmacy in Turku from the ground up, designed a clear interface, improved search (SEO) visibility, reduced ongoing costs, and enabled easy content management via Google Sheets."
+        "description": "We built a website for a pharmacy in Turku from the ground up, designed a clear interface, improved search (SEO) visibility, reduced ongoing costs, and enabled easy content management via Google Sheets.",
+        "role": "Lead Fullstack-developer",
+        "core-features": {
+          "title": "Core features:",
+          "items": {
+            "0": "Clear and user-friendly interface",
+            "1": "Powerful SEO with keyword optimization",
+            "2": "Intgrated search functionality"
+          }
+        },
+        "achievements": {
+          "title": "Achievements:",
+          "items": {
+            "0": "Reduced ongoing costs with 100% by introducing serverless architecture",
+            "1": "Increased organic traffic by 30% with improved SEO",
+            "2": "Engineered a scalable and cost-effective CMS solution",
+            "3": "Increased conversion rate by 20% with improved UI/UX"
+          }
+        }
       },
       "roof-history": {
         "title": "Roof History",
-        "description": "We designed and implemented scalable server architecture, secure login features, and a better user interface. We also enhanced SEO and added address search and verification via Google Cloud (GCS) for fast, clear, and reliable performance."
+        "description": "We designed and implemented the complete backend for a roofing company in the United States, including a scalable server architecture, secure login features, and a better user interface.",
+        "role": "Senior Backend-developer",
+        "core-features": {
+          "title": "Core features:",
+          "items": {
+            "0": "Ability to order roof assessments",
+            "1": "Automatic weather tracking background jobs for roof damage prevention",
+            "2": "Address verification via Google Cloud (GCS) API"
+          }
+        },
+        "achievements": {
+          "title": "Achievements:",
+          "items": {
+            "0": "Seamless login and registration process with th ability to choose between different OAuth providers and credentials",
+            "1": "Engineered a nearly cost-free and scalable server architecture.",
+            "2": "Reduced the amount of incorrect addresses by 100% with the help of address verification"
+          }
+        }
       }
     }
   },

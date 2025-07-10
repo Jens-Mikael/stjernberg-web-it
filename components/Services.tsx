@@ -3,6 +3,7 @@ import { ArrowRight, Code, Globe } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
+import ButtonOutline from "./buttons/ButtonOutline";
 
 export default function Services() {
   const t = useTranslations("services");
@@ -30,18 +31,6 @@ export default function Services() {
               image: "/services/software-development.jpeg",
               href: "/services/software-development",
             },
-            // {
-            //   title: "Kotisivut yritykselle",
-            //   description: "Palvelut",
-            //   icon: Globe,
-            //   image: "/hero-v3.jpg",
-            // },
-            // {
-            //   title: "Kotisivut yritykselle",
-            //   description: "Palvelut",
-            //   icon: Globe,
-            //   image: "/hero-v3.jpg",
-            // },
           ].map((service, i) => (
             <Link
               href={`${service.href}`}
@@ -64,10 +53,13 @@ export default function Services() {
                 <p className="text-gray-200 group-hover:opacity-100 lg:text-lg lg:opacity-0 transition-all duration-500">
                   {t(`${service.key}.description`)}
                 </p>
-                <p className="flex items-center gap-2 mt-2 md:mt-0 font-medium">
+                <ButtonOutline className="flex items-center gap-2 group/button w-fit">
                   {t(`more`)}
-                  <ArrowRight className="size-6 text-main" strokeWidth={2.5} />
-                </p>
+                  <ArrowRight
+                    className="size-6 text-main group-hover/button:translate-x-1 transition-all"
+                    strokeWidth={2.5}
+                  />
+                </ButtonOutline>
               </div>
             </Link>
           ))}

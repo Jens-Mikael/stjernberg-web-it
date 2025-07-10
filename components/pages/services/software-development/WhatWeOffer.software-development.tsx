@@ -46,6 +46,7 @@ const items = [
     icon: <Cloud />,
     tools: [
       "AWS",
+      "Azure",
       "Google Cloud",
       "Vercel",
       "Docker",

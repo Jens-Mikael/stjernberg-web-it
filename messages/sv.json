@@ -266,15 +266,114 @@
     "items": {
       "eskimo-village": {
         "title": "Eskimovillage",
-        "description": "Vi designade och utvecklade webbapplikationens användargränssnitt, vilket förbättrade dess hastighet och användbarhet. Vi implementerade också realtidskommunikation och sökmotoroptimering för att säkerställa att tjänsten fungerar smidigt och sticker ut online."
+        "description": "En komplett plattform för självstudier med blogglektioner, videoföreläsningar och ett respektfullt, peppande och tajt community.",
+        "role": "Huvudansvarig frontend-utvecklare",
+        "core-features": {
+          "title": "Huvudfunktioner:",
+          "items": {
+            "0": "Kraftfull realtids-chat",
+            "1": "CMS för SEO-bloggsidor",
+            "2": "Integrerad Jitsi meet",
+            "3": "Avancerad adminpanel",
+            "4": "Schemaläggning med kalender"
+          }
+        },
+        "achievements": {
+          "title": "Resultat:",
+          "items": {
+            "0": "Migrerade realtids-chatten till en mer stabil och skalbar lösning, vilket minskade fördröjning och downtime, och ökade prestandan 10x.",
+            "1": "Förbättrade synligheten med 90 % genom bättre SEO",
+            "2": "Snabbare sidor med smart caching och optimerade bilder"
+          }
+        }
+      },
+      "lokota-ai": {
+        "title": "LokotaAI",
+        "description": "En komplett AI-driven chatbot-widget som företag kan lägga in på sina hemsidor för att svara på kundfrågor automatiskt.",
+        "role": "Grundare & fullstack-utvecklare",
+        "core-features": {
+          "title": "Huvudfunktioner:",
+          "items": {
+            "0": "Kraftfull RAG-baserad arkitektur",
+            "1": "Automatisk web scraping för att samla kontext",
+            "2": "Reinforcement learning för bättre svar",
+            "3": "Missbruksdetektering på enterprisenivå",
+            "4": "Anpassning av widget med egna färgteman"
+          }
+        },
+        "achievements": {
+          "title": "Resultat:",
+          "items": {
+            "0": "Sänkte driftskostnader med 70 % genom att använda RAG-arkitektur istället för traditionella LLM-lösningar",
+            "1": "Fick 500+ besökare inom 24 timmar efter lansering",
+            "2": "Införde caching för vanliga frågor vilket minskade fördröjning och ökade prestandan",
+            "3": "Utvecklade ett universellt inbäddningsscript som funkar i alla moderna ramverk, med smart CDN-hosting för snabba laddtider"
+          }
+        }
+      },
+      "shot-canvas": {
+        "title": "ShotCanvas",
+        "description": "Ett gratis SaaS-verktyg som förvandlar tråkiga screenshots till snygga bilder med macOS- och gradientbakgrunder.",
+        "role": "Grundare & fullstack-utvecklare",
+        "core-features": {
+          "title": "Huvudfunktioner:",
+          "items": {
+            "0": "Ladda upp screenshots och lägg till modern bakgrund",
+            "1": "Justera suddighet och rundade hörn",
+            "2": "Egna bildformat, exporttyper och storlekar"
+          }
+        },
+        "achievements": {
+          "title": "Resultat:",
+          "items": {
+            "0": "Fick över 1000 besök och 60+ unika konverteringar",
+            "1": "Byggde ett smidigt och lättanvänt gränssnitt utan onödig röra",
+            "2": "Skapade en smart SEO-struktur med 200+ olika ingångar för sökord"
+          }
+        }
       },
       "hansatorin-apteekki": {
-        "title": "Hansatorgets Apotek",
-        "description": "Vi byggde en webbplats för ett apoteket i Åbo, designade ett tydligt gränssnitt, förbättrade sökbarheten, minskade löpande kostnader och möjliggjorde enkel innehållshantering via Google Sheets."
+        "title": "Hansatoris Apotek",
+        "description": "Vi byggde en helt ny hemsida för ett apotek i Åbo med tydlig design, förbättrad SEO-synlighet, lägre driftskostnader och enkel innehållshantering via Google Sheets.",
+        "role": "Huvudansvarig fullstack-utvecklare",
+        "core-features": {
+          "title": "Huvudfunktioner:",
+          "items": {
+            "0": "Tydligt och användarvänligt gränssnitt",
+            "1": "Stark SEO med optimerade nyckelord",
+            "2": "Integrerad sökfunktion"
+          }
+        },
+        "achievements": {
+          "title": "Resultat:",
+          "items": {
+            "0": "Tog bort 100 % av löpande kostnader genom att använda serverless-arkitektur",
+            "1": "Ökade organisk trafik med 30 % tack vare förbättrad SEO",
+            "2": "Utvecklade en skalbar och billig CMS-lösning",
+            "3": "Höjde konverteringsgraden med 20 % tack vare förbättrad UI/UX"
+          }
+        }
       },
       "roof-history": {
         "title": "Roof History",
-        "description": "Vi designade och implementerade skalbar serverarkitektur, säkra inloggningsfunktioner och ett förbättrat användargränssnitt. Vi förbättrade även SEO och lade till adressökning och verifiering via Google Cloud för snabb, tydlig och pålitlig prestanda."
+        "description": "Vi utvecklade hela backend-lösningen åt ett takföretag i USA, inklusive skalbar serverarkitektur, säker inloggning och bättre användargränssnitt.",
+        "role": "Senior backend-utvecklare",
+        "core-features": {
+          "title": "Huvudfunktioner:",
+          "items": {
+            "0": "Möjlighet att beställa takinspektioner",
+            "1": "Automatisk väderövervakning i bakgrunden för att förebygga skador",
+            "2": "Adressverifiering med hjälp av Google Cloud (GCS) API"
+          }
+        },
+        "achievements": {
+          "title": "Resultat:",
+          "items": {
+            "0": "Smidig inloggning och registrering med olika OAuth-alternativ",
+            "1": "Byggde en nästan gratis och skalbar serverlösning",
+            "2": "100 % färre felaktiga adresser tack vare verifiering"
+          }
+        }
       }
     }
   },

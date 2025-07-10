@@ -266,15 +266,114 @@
     "items": {
       "eskimo-village": {
         "title": "Eskimovillage",
-        "description": "Suunnittelimme ja kehitimme verkkosovelluksen käyttöliittymän, parantaen sen nopeutta ja käytettävyyttä. Toteutimme myös reaaliaikaisen viestinnän ja hakukoneoptimoinnin, jotta palvelu toimii sujuvasti ja erottuu verkossa."
+        "description": "Laaja sovellus itseopiskeluun tarkoitetulle portaalisivustolle, jossa on blogioppitunteja, videoluentoja ja kunnioittava, kannustava sekä tiivis yhteisö.",
+        "role": "Päävastuullinen frontend-kehittäjä",
+        "core-features": {
+          "title": "Pääominaisuudet:",
+          "items": {
+            "0": "Tehokas reaaliaikainen chat-toiminto",
+            "1": "CMS SEO-blogisivuille",
+            "2": "Integroitu Jitsi meet",
+            "3": "Monipuolinen admin-näkymä",
+            "4": "Kalenterin ajanhallinta"
+          }
+        },
+        "achievements": {
+          "title": "Saavutukset:",
+          "items": {
+            "0": "Migroin reaaliaikaisen chatin vakaampaan ja skaalautuvampaan ratkaisuun, mikä vähensi viivettä ja käyttökatkoja ja paransi suorituskykyä 10-kertaiseksi.",
+            "1": "Lisäsin näkyvyyttä 90 % paremmalla SEO:lla",
+            "2": "Paransin sivujen nopeutta älykkäällä välimuistilla ja kuvien optimoinnilla"
+          }
+        }
+      },
+      "lokota-ai": {
+        "title": "LokotaAI",
+        "description": "Täysiverinen AI-pohjainen chatbot-widget, jonka yritykset voivat upottaa verkkosivuilleen asiakaspalvelun tueksi.",
+        "role": "Perustaja & fullstack-kehittäjä",
+        "core-features": {
+          "title": "Pääominaisuudet:",
+          "items": {
+            "0": "Tehokas RAG-arkkitehtuuri",
+            "1": "Automaattinen web scraping kontekstin keräämiseen",
+            "2": "Reinforcement learning parempiin vastauksiin",
+            "3": "Yritystason väärinkäytösten tunnistus ja esto",
+            "4": "Widgetin ulkoasun muokkaus omalla värimaailmalla"
+          }
+        },
+        "achievements": {
+          "title": "Saavutukset:",
+          "items": {
+            "0": "Vähensin käyttökustannuksia 70 % hyödyntämällä tehokasta RAG-arkkitehtuuria perinteisten LLM-mallien sijaan",
+            "1": "Sain yli 500 kävijää 24 tunnissa julkaisun jälkeen",
+            "2": "Lisäsin välimuistin yleisille kysymyksille nopeuden ja suorituskyvyn parantamiseksi",
+            "3": "Rakensin universaalin upotettavan skriptin, joka toimii kaikissa moderneissa web-kehyksissä ja käyttää älykästä CDN-hostingia nopeampaan sivulataukseen"
+          }
+        }
+      },
+      "shot-canvas": {
+        "title": "ShotCanvas",
+        "description": "Ilmainen SaaS-työkalu tylsien kuvakaappausten muuttamiseen näyttäviksi kuviksi macOS- ja liukuväritaustoilla.",
+        "role": "Perustaja & fullstack-kehittäjä",
+        "core-features": {
+          "title": "Pääominaisuudet:",
+          "items": {
+            "0": "Lataa kuvakaappauksia ja lisää niihin moderni tausta",
+            "1": "Säädä taustan sumeutta ja kuvien pyöreyttä",
+            "2": "Mukautetut kuvasuhteet, tiedostotyypit ja kuvakoot"
+          }
+        },
+        "achievements": {
+          "title": "Saavutukset:",
+          "items": {
+            "0": "Sain yli 1000 käyntiä ja yli 60 uniikkia konversiota",
+            "1": "Rakensin selkeän ja helppokäyttöisen käyttöliittymän, joka vähentää sekavuutta",
+            "2": "Kehitin tehokkaan SEO-idean luomalla yli 200 eri avainsanahakua vastaavaa aloitussivua"
+          }
+        }
       },
       "hansatorin-apteekki": {
         "title": "Hansatorin Apteekki",
-        "description": "Rakensimme apteekille Turussa verkkosivuston alusta loppuun, sekä suunnittelimme selkeän käyttöliittymän ja paransimme hakukonenäkyvyyttä. Vähensimme myös juksevia kuluja ja mahdollistimme sisällön helpon hallinnan Google Sheetsin avulla."
+        "description": "Rakensimme verkkosivun Turun apteekille alusta asti, suunnittelimme selkeän käyttöliittymän, paransimme SEO-näkyvyyttä, vähensimme kuluja ja mahdollistimme helpon sisällönhallinnan Google Sheetsin kautta.",
+        "role": "Päävastuullinen fullstack-kehittäjä",
+        "core-features": {
+          "title": "Pääominaisuudet:",
+          "items": {
+            "0": "Selkeä ja käyttäjäystävällinen käyttöliittymä",
+            "1": "Tehokas SEO ja avainsanaoptimointi",
+            "2": "Integroitu hakutoiminto"
+          }
+        },
+        "achievements": {
+          "title": "Saavutukset:",
+          "items": {
+            "0": "Vähensimme jatkuvia kustannuksia 100 % siirtymällä serverless-arkkitehtuuriin",
+            "1": "Lisäsimme orgaanista liikennettä 30 % paremmalla SEO:lla",
+            "2": "Kehitimme skaalautuvan ja kustannustehokkaan CMS-ratkaisun",
+            "3": "Paransimme konversioprosenttia 20 % paremmalla UI/UX:llä"
+          }
+        }
       },
       "roof-history": {
         "title": "Roof History",
-        "description": "Suunnittelimme ja rakensimme verkkosivulle skaalautuvan palvelinarkkitehtuurin, huolehdimme tietoturvallisesta kirjautumisesta ja paransimme käyttöliittymää. Lisäksi tehostimme hakukonenäkyvyyttä ja integroimme osoitehaun Google Cloudin avulla, jotta palvelu olisi nopea, selkeä ja luotettava."
+        "description": "Suunnittelimme ja toteutimme kattoremonttiyritykselle Yhdysvalloissa taustajärjestelmän, mukaan lukien skaalautuvan palvelinarkkitehtuurin, turvalliset kirjautumisominaisuudet ja paremman käyttöliittymän.",
+        "role": "Senior Backend-kehittäjä",
+        "core-features": {
+          "title": "Pääominaisuudet:",
+          "items": {
+            "0": "Mahdollisuus tilata kattotarkastuksia",
+            "1": "Automaattiset sääseuranta-taustaprosessit vaurioiden ehkäisyyn",
+            "2": "Osoitteiden tarkistus Google Cloud (GCS) API:n avulla"
+          }
+        },
+        "achievements": {
+          "title": "Saavutukset:",
+          "items": {
+            "0": "Saumaton kirjautuminen eri OAuth-vaihtoehdoilla ja tunnuksilla",
+            "1": "Kehitettiin lähes ilmainen ja skaalautuva palvelinarkkitehtuuri",
+            "2": "Vähennettiin virheellisiä osoitteita 100 % osoitetarkistuksen avulla"
+          }
+        }
       }
     }
   },
