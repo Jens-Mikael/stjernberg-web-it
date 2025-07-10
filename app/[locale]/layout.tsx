@@ -52,9 +52,6 @@ export async function generateMetadata({ params }: IProps): Promise<Metadata> {
         sv: "/sv",
       },
     },
-    openGraph: {
-      images: `/hero.jpg`,
-    },
   };
 }
 
@@ -75,7 +72,6 @@ export default async function RootLayout({ children, params }: IProps) {
     `}
         </Script>
       </head>
-
       <body className={`${gabarito.variable} antialiased `}>
         <Providers>
           <NextIntlClientProvider>
