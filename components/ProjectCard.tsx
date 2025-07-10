@@ -29,7 +29,7 @@ export default function ProjectCard({
   return (
     <div
       className={cn(
-        "group relative flex flex-col gap-5 bg-gradient-to-br from-white via-white to-gray-50/50 border border-gray-200/60 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 h-fit overflow-hidden",
+        "group relative flex flex-col gap-5 bg-gradient-to-br from-white via-white to-gray-50/50 border border-gray-200/60 p-4 xs:p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 h-fit overflow-hidden",
         className
       )}
     >
@@ -48,7 +48,8 @@ export default function ProjectCard({
           target="_blank"
           className="flex items-center gap-2 h-fit group/link font-semibold px-4 py-2 rounded-xl bg-gradient-to-r  from-blue-500 to-purple-600 text-white hover:from-blue-600 hover:to-purple-700 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
         >
-          Visit site
+          <span className="hidden xs:inline">Visit site</span>{" "}
+          <span className="xs:hidden">Visit</span>
           <ArrowRight className="size-4 group-hover/link:translate-x-1 transition-transform duration-300" />
         </Link>
       </div>
@@ -133,7 +134,7 @@ export default function ProjectCard({
                 "Slack",
                 "Google Sheets",
                 "Google Docs",
-              ].map((tool, i) => (
+              ].map((tool) => (
                 <div
                   key={tool}
                   className="rounded-xl px-3 py-1.5 bg-gradient-to-r from-blue-500/10 to-purple-500/10 text-blue-700 border border-blue-200/50 hover:from-blue-500/20 hover:to-purple-500/20 hover:border-blue-300/70 transition-all duration-200 cursor-default transform hover:scale-105 shadow-sm"

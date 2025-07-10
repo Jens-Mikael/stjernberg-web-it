@@ -60,7 +60,7 @@ export default function Projects({
         )}
         <div className="columns-1 lg:columns-2 gap-5 xl:gap-10 w-full">
           {projects.slice(0, isProjectsPage ? projects.length : 2).map(
-            (project, i) => (
+            (project) => (
               <ProjectCard
                 key={project.key}
                 project={project}
