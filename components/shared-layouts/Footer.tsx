@@ -1,6 +1,10 @@
 import { Link } from "@/i18n/navigation";
 import { Mail } from "lucide-react";
 import { useTranslations } from "next-intl";
+import GithubIcon from "../svg/github-icon";
+import LinkedinIcon from "../svg/linkedin-icon";
+import TwitterIcon from "../svg/twitter-icon";
+import InstagramIcon from "../svg/icons8-instagram";
 
 const nav = [
   {
@@ -18,6 +22,25 @@ const nav = [
   {
     key: "contact",
     href: "/contact",
+  },
+];
+
+const socials = [
+  {
+    icon: <GithubIcon className="size-6" />,
+    href: "https://github.com/Jens-Mikael",
+  },
+  {
+    icon: <LinkedinIcon className="size-6 " />,
+    href: "https://www.linkedin.com/in/jens-mikael-stjernberg-072938278/",
+  },
+  {
+    icon: <TwitterIcon className="size-6" />,
+    href: "https://x.com/jens_stjernberg",
+  },
+  {
+    icon: <InstagramIcon className="size-6" />,
+    href: "https://www.instagram.com/jensmikael.stjernberg/",
   },
 ];
 
@@ -41,6 +64,18 @@ export default function Footer() {
               <Mail strokeWidth={2.5} className="h-5 w-5 text-main" />
               stjernberg.web.it@gmail.com
             </Link>
+          </div>
+          <div className="flex gap-5">
+            {socials.map((social) => (
+              <Link
+                href={social.href}
+                key={social.href}
+                target="_blank"
+                className="hover:fill-white fill-content-gray transition-all"
+              >
+                {social.icon}
+              </Link>
+            ))}
           </div>
         </div>
         <div className="flex-1 space-y-2">

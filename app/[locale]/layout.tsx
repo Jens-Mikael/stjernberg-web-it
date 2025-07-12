@@ -52,6 +52,9 @@ export async function generateMetadata({ params }: IProps): Promise<Metadata> {
         sv: "/sv",
       },
     },
+    openGraph: {
+      siteName: "Stjernberg Web and IT Services",
+    }
   };
 }
 
